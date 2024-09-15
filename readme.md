@@ -18,9 +18,9 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 4.  | Auffrischung          | [printf mit Formatstring](Auffrischung_004/readme.md)                                             |
 | 5.  | Auffrischung          | [Maximum in einem Array suchen](Auffrischung_005/readme.md)                                       |
 | 6.  | Auffrischung          | [Taschenrechner](Auffrischung_006/readme.md)                                                      |
-| 7.  | Einführung            | [Java-Coding-Standard anwenden](Einführung_001/readme.md)                                         |
-| 8.  | Einführung            | [JavaDoc schreiben](Einführung_002/readme.md)                                                     |
-| 9.  | Einführung            | [Klasse mit JUnit testen](Einführung_003/readme.md)                                               |
+| 7.  | Einführung            | [Java-Coding-Standard anwenden](Einfuehrung_001/readme.md)                                        |
+| 8.  | Einführung            | [JavaDoc schreiben](Einfuehrung_002/readme.md)                                                    |
+| 9.  | Einführung            | [Klasse mit JUnit testen](Einfuehrung_003/readme.md)                                              |
 | 10. | Strukturierung        | [Information-Hiding einer Klasse verbessern](Strukturierung_001/readme.md)                        |
 | 11. | Strukturierung        | [Vorhandene Bibliotheken als JAR einbinden](Strukturierung_002/readme.md)                         |
 | 12. | Vererbung             | [Final anwenden](Vererbung_001/readme.md)                                                         |
@@ -35,19 +35,19 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 21. | Vererbung             | [Methoden überschreiben](Vererbung_010/readme.md)                                                 |
 | 22. | Vererbung             | [Varag-Methode schreiben](Vererbung_011/readme.md)                                                |
 | 23. | Vererbung             | [Vererbung von Figuren](Vererbung_012/readme.md)                                                  |
-| 24. | Abstrakte Klassen     | [Abstrakte Klassen](Abstrakte Klassen_001/readme.md)                                              |
-| 25. | Abstrakte Klassen     | [Abstrakte Klasse](Abstrakte Klassen_002/readme.md)                                               |
+| 24. | Abstrakte Klassen     | [Abstrakte Klassen](Abstrakte_Klassen_001/readme.md)                                              |
+| 25. | Abstrakte Klassen     | [Abstrakte Klasse](Abstrakte_Klassen_002/readme.md)                                               |
 | 26. | Interfaces            | [Comparable implementieren](Interfaces_001/readme.md)                                             |
 | 27. | Interfaces            | [Interface Stack entwerfen](Interfaces_002/readme.md)                                             |
 | 28. | Interfaces            | [Interface: Uebersetzer](Interfaces_003/readme.md)                                                |
 | 29. | Interfaces            | [Interfaces anwenden und entwerfen](Interfaces_004/readme.md)                                     |
-| 30. | Object und Wrapper    | [Deep-Copy mit `clone()`](Object und Wrapper_001/readme.md)                                       |
-| 31. | Object und Wrapper    | [Clone](Object und Wrapper_002/readme.md)                                                         |
-| 32. | Object und Wrapper    | [`equals()` und `hashCode()` implementieren und nutzen](Object und Wrapper_003/readme.md)         |
-| 33. | Object und Wrapper    | [equals und hashCode](Object und Wrapper_004/readme.md)                                           |
-| 34. | Object und Wrapper    | [`toString()`-Methode implementieren](Object und Wrapper_005/readme.md)                           |
-| 35. | Object und Wrapper    | [Optimierung bei Integer](Object und Wrapper_006/readme.md)                                       |
-| 36. | Object und Wrapper    | [Methoden der Wrapper-Klassen](Object und Wrapper_007/readme.md)                                  |
+| 30. | Object und Wrapper    | [Deep-Copy mit `clone()`](Object_und_Wrapper_001/readme.md)                                       |
+| 31. | Object und Wrapper    | [Clone](Object_und_Wrapper_002/readme.md)                                                         |
+| 32. | Object und Wrapper    | [`equals()` und `hashCode()` implementieren und nutzen](Object_und_Wrapper_003/readme.md)         |
+| 33. | Object und Wrapper    | [equals und hashCode](Object_und_Wrapper_004/readme.md)                                           |
+| 34. | Object und Wrapper    | [`toString()`-Methode implementieren](Object_und_Wrapper_005/readme.md)                           |
+| 35. | Object und Wrapper    | [Optimierung bei Integer](Object_und_Wrapper_006/readme.md)                                       |
+| 36. | Object und Wrapper    | [Methoden der Wrapper-Klassen](Object_und_Wrapper_007/readme.md)                                  |
 | 37. | Enumerationen         | [Eigene Enumeration schreiben und verwenden](Enumerationen_001/readme.md)                         |
 | 38. | Enumerationen         | [Enumeration schreiben](Enumerationen_002/readme.md)                                              |
 | 39. | Enumerationen         | [Singleton-Eigenschaft von Enumerationen](Enumerationen_003/readme.md)                            |
@@ -57,37 +57,37 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 43. | Ausnahmen             | [Eigene Exception schreiben](Ausnahmen_003/readme.md)                                             |
 | 44. | Ausnahmen             | [Handle-or-Declare-Regel anwenden](Ausnahmen_004/readme.md)                                       |
 | 45. | Ausnahmen             | [Ausnahmen mit `try` und `catch` behandeln.](Ausnahmen_005/readme.md)                             |
-| 46. | Input und Output      | [`BufferedReader` zum zeilenweisen Lesen einsetzen](Input und Output_001/readme.md)               |
-| 47. | Input und Output      | [DataOutputStream](Input und Output_002/readme.md)                                                |
-| 48. | Input und Output      | [DataOutputStream durch Serialisierung ersetzen](Input und Output_003/readme.md)                  |
-| 49. | Input und Output      | [Daten mit `DataOutputStream` und `DataInputStream` verarbeiten](Input und Output_004/readme.md)  |
-| 50. | Input und Output      | [Daten mit einem `InputStream` lesen](Input und Output_005/readme.md)                             |
-| 51. | Input und Output      | [Daten mit einem `OutputStream` schreiben](Input und Output_006/readme.md)                        |
-| 52. | Input und Output      | [Filesystem-Abstraktion mit `File`](Input und Output_007/readme.md)                               |
-| 53. | Input und Output      | [Fileattribute lesen](Input und Output_008/readme.md)                                             |
-| 54. | Input und Output      | [`FilterReader`](Input und Output_009/readme.md)                                                  |
-| 55. | Input und Output      | [Konsolen Input/Output](Input und Output_010/readme.md)                                           |
-| 56. | Input und Output      | [Zeilen einer Textdatei zählen](Input und Output_011/readme.md)                                   |
-| 57. | Input und Output      | [`RandomAccessFile`](Input und Output_012/readme.md)                                              |
-| 58. | Input und Output      | [`Reader` verwenden](Input und Output_013/readme.md)                                              |
-| 59. | Input und Output      | [Rot13-Verschlüsselung](Input und Output_014/readme.md)                                           |
-| 60. | Input und Output      | [Datei zerhacken](Input und Output_015/readme.md)                                                 |
-| 61. | Input und Output      | [Serialisierung](Input und Output_016/readme.md)                                                  |
-| 62. | Generische Typen      | [Einen generischen Typ schreiben](Generische Typen_001/readme.md)                                 |
-| 63. | Generische Typen      | [Generische Klasse Pair schreiben](Generische Typen_002/readme.md)                                |
-| 64. | Generische Typen      | [Generische Klasse Pair erweitern: NumberPair](Generische Typen_003/readme.md)                    |
-| 65. | Generische Typen      | [Generische Klasse Pair erweitern: SamePair](Generische Typen_004/readme.md)                      |
-| 66. | Generische Typen      | [PairList](Generische Typen_005/readme.md)                                                        |
-| 67. | Generische Typen      | [Wildcard benutzen](Generische Typen_006/readme.md)                                               |
-| 68. | Generische Typen      | [Generische Queue](Generische Typen_007/readme.md)                                                |
-| 69. | Generische Typen      | [`super` und `extends` einsetzen](Generische Typen_008/readme.md)                                 |
-| 70. | Generische Typen      | [Generische Typen zusammen mit Wildcards einsetzen](Generische Typen_009/readme.md)               |
-| 71. | Geschachtelte Klassen | [Eigene compare-Methode schreiben](Geschachtelte Klassen_001/readme.md)                           |
-| 72. | Geschachtelte Klassen | [Innere Klasse Beobachter](Geschachtelte Klassen_002/readme.md)                                   |
-| 73. | Geschachtelte Klassen | [Callback mit anonymer Klasse realisieren](Geschachtelte Klassen_003/readme.md)                   |
+| 46. | Input und Output      | [`BufferedReader` zum zeilenweisen Lesen einsetzen](Input_und_Output_001/readme.md)               |
+| 47. | Input und Output      | [DataOutputStream](Input_und_Output_002/readme.md)                                                |
+| 48. | Input und Output      | [DataOutputStream durch Serialisierung ersetzen](Input_und_Output_003/readme.md)                  |
+| 49. | Input und Output      | [Daten mit `DataOutputStream` und `DataInputStream` verarbeiten](Input_und_Output_004/readme.md)  |
+| 50. | Input und Output      | [Daten mit einem `InputStream` lesen](Input_und_Output_005/readme.md)                             |
+| 51. | Input und Output      | [Daten mit einem `OutputStream` schreiben](Input_und_Output_006/readme.md)                        |
+| 52. | Input und Output      | [Filesystem-Abstraktion mit `File`](Input_und_Output_007/readme.md)                               |
+| 53. | Input und Output      | [Fileattribute lesen](Input_und_Output_008/readme.md)                                             |
+| 54. | Input und Output      | [`FilterReader`](Input_und_Output_009/readme.md)                                                  |
+| 55. | Input und Output      | [Konsolen Input/Output](Input_und_Output_010/readme.md)                                           |
+| 56. | Input und Output      | [Zeilen einer Textdatei zählen](Input_und_Output_011/readme.md)                                   |
+| 57. | Input und Output      | [`RandomAccessFile`](Input_und_Output_012/readme.md)                                              |
+| 58. | Input und Output      | [`Reader` verwenden](Input_und_Output_013/readme.md)                                              |
+| 59. | Input und Output      | [Rot13-Verschlüsselung](Input_und_Output_014/readme.md)                                           |
+| 60. | Input und Output      | [Datei zerhacken](Input_und_Output_015/readme.md)                                                 |
+| 61. | Input und Output      | [Serialisierung](Input_und_Output_016/readme.md)                                                  |
+| 62. | Generische Typen      | [Einen generischen Typ schreiben](Generische_Typen_001/readme.md)                                 |
+| 63. | Generische Typen      | [Generische Klasse Pair schreiben](Generische_Typen_002/readme.md)                                |
+| 64. | Generische Typen      | [Generische Klasse Pair erweitern: NumberPair](Generische_Typen_003/readme.md)                    |
+| 65. | Generische Typen      | [Generische Klasse Pair erweitern: SamePair](Generische_Typen_004/readme.md)                      |
+| 66. | Generische Typen      | [PairList](Generische_Typen_005/readme.md)                                                        |
+| 67. | Generische Typen      | [Wildcard benutzen](Generische_Typen_006/readme.md)                                               |
+| 68. | Generische Typen      | [Generische Queue](Generische_Typen_007/readme.md)                                                |
+| 69. | Generische Typen      | [`super` und `extends` einsetzen](Generische_Typen_008/readme.md)                                 |
+| 70. | Generische Typen      | [Generische Typen zusammen mit Wildcards einsetzen](Generische_Typen_009/readme.md)               |
+| 71. | Geschachtelte Klassen | [Eigene compare-Methode schreiben](Geschachtelte_Klassen_001/readme.md)                           |
+| 72. | Geschachtelte Klassen | [Innere Klasse Beobachter](Geschachtelte_Klassen_002/readme.md)                                   |
+| 73. | Geschachtelte Klassen | [Callback mit anonymer Klasse realisieren](Geschachtelte_Klassen_003/readme.md)                   |
 | 74. | Lambdas               | [Comparator als Lambda](Lambdas_001/readme.md)                                                    |
 | 75. | Lambdas               | [Callback mit Lambda realisieren](Lambdas_002/readme.md)                                          |
-| 76. | Geschachtelte Klassen | [MatrixSuche](Geschachtelte Klassen_001/readme.md)                                                |
+| 76. | Geschachtelte Klassen | [MatrixSuche](Geschachtelte_Klassen_001/readme.md)                                                |
 | 77. | Lambdas               | [StringTransmogrifier](Lambdas_001/readme.md)                                                     |
 | 78. | Lambdas               | [StringTransmogrifier erweitern](Lambdas_002/readme.md)                                           |
 | 79. | Collections           | [Iterator schreiben](Collections_001/readme.md)                                                   |
