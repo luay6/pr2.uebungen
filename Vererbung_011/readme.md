@@ -1,6 +1,6 @@
 # Varag-Methode schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Eine Varag-Methode schreiben.

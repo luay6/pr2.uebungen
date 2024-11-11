@@ -1,6 +1,6 @@
 # Methode überladen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Methoden überladen.

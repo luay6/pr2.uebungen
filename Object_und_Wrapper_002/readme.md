@@ -1,6 +1,6 @@
 # Clone
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Den Nutzen der `clone()`-Methode verstehen und diese richtig einsetzen. Eine eigene `clone()`-Methode schreiben und eine tiefe Kopie durchführen.

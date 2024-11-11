@@ -1,6 +1,6 @@
 # Singleton-Eigenschaft von Enumerationen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Die Singleton-Eigenschaft von Enumerationen verstehen.

@@ -1,6 +1,6 @@
 # Vererbung von Figuren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Einfache Klassen schreiben und eine Vererbungshierarchie bilden.

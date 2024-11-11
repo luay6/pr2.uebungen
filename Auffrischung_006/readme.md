@@ -1,6 +1,6 @@
 # Taschenrechner
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 `case` verwenden.

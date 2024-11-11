@@ -1,6 +1,6 @@
 # `equals()` und `hashCode()` implementieren und nutzen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Die Methoden `equals()` und `hashCode()` der Klasse `Object` korrekt überschreiben und nutzen.

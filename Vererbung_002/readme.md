@@ -1,6 +1,6 @@
 # Figur und Rechteck
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Vererbung sinnvoll einsetzen.

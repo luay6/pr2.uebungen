@@ -1,6 +1,6 @@
 # `toString()`-Methode implementieren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Klassen mit einer `toString()`-Methode versehen und diese gegenseitig nutzen.

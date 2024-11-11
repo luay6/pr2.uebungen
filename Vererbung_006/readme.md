@@ -1,6 +1,6 @@
 # Polymorphie einsetzen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Durch Polymorphie Subklassen wie Basisklassen behandeln können.

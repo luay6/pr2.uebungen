@@ -1,6 +1,6 @@
 # Methoden der Wrapper-Klassen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Wrapper-Klassen nutzen, um Zahlen umzuwandeln.

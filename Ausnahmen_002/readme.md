@@ -1,6 +1,6 @@
 # Eigene Ausnahmen schreiben und an entsprechender Stelle werfen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Ausnahmen programmieren und sinnvoll einsetzen. Bedeutung der Schlüsselwörter `throws` und `throw` verstehen.

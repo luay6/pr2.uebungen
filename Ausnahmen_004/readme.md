@@ -1,6 +1,6 @@
 # Handle-or-Declare-Regel anwenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 In einem vorhandenen Programm die Ausnahmen korrekt weiter deklarieren und an den richtigen Stellen fangen.

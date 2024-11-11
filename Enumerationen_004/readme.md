@@ -1,6 +1,6 @@
 # Assignment: Stein, Papier, Schere, Echse, Spock
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Mit Enumerationen arbeiten.

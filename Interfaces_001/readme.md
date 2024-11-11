@@ -1,6 +1,6 @@
 # Comparable implementieren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Klasse "comparable" machen.

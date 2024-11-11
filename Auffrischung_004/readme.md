@@ -1,6 +1,6 @@
 # printf mit Formatstring
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Formatierung mit Formatstrings.

@@ -1,6 +1,6 @@
 # Figur noch einmal erweitern
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Vererbung sinnvoll einsetzen.

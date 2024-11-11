@@ -1,6 +1,6 @@
 # Konstruktoren schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Für eine vorhandene Klasse Konstruktoren schreiben und Konstruktoren sich gegenseitig und auch Konstruktoren der Superklasse aufrufen lassen.

@@ -1,6 +1,6 @@
 # Abstrakte Klassen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Eine abstrakte Klasse einsetzen, um eine einheitliche Schnittstelle für unterschiedliche Klassen anzubieten.

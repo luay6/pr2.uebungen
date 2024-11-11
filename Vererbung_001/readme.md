@@ -1,6 +1,6 @@
 # Final anwenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Das Schlüsselwort `final` in seinen verschiedenen Bedeutungen kennenlernen und syntaktisch an die richtigen Stellen schreiben.

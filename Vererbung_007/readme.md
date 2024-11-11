@@ -1,6 +1,6 @@
 # Singleton
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Das Design-Pattern _Singleton_ einsetzen.

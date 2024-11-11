@@ -1,6 +1,6 @@
 # Eigene Exception schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Eigene Exceptions entwerfen und verwenden.
