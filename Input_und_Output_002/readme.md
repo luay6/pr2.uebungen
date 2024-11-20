@@ -1,6 +1,6 @@
 # DataOutputStream
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Daten mit einem `DataOutputStreams` manuell serialisieren.

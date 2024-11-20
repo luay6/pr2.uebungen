@@ -1,6 +1,6 @@
 # `Reader` verwenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Textdaten mithilfe von `Reader` verarbeiten.

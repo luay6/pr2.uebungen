@@ -1,6 +1,6 @@
 # `RandomAccessFile`
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 `RandomAccessFile` sowohl zum Lesen, als auch zum Schreiben von Daten einsetzen. Verstehen, dass man sich wahlfrei durch die Datei bewegen kann.

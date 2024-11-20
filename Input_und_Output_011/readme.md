@@ -1,6 +1,6 @@
 # Zeilen einer Textdatei zählen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Dateien zeilenweise lesen und verarbeiten.

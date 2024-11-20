@@ -57,22 +57,22 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 43. | Ausnahmen             | [Eigene Exception schreiben](Ausnahmen_003/readme.md)                                             |  [✅](Ausnahmen_003/solution/) |
 | 44. | Ausnahmen             | [Handle-or-Declare-Regel anwenden](Ausnahmen_004/readme.md)                                       |  [✅](Ausnahmen_004/solution/) |
 | 45. | Ausnahmen             | [Ausnahmen mit `try` und `catch` behandeln.](Ausnahmen_005/readme.md)                             |  [✅](Ausnahmen_005/solution/) |
-| 46. | Input und Output      | [`BufferedReader` zum zeilenweisen Lesen einsetzen](Input_und_Output_001/readme.md)               |   |
-| 47. | Input und Output      | [DataOutputStream](Input_und_Output_002/readme.md)                                                |   |
-| 48. | Input und Output      | [DataOutputStream durch Serialisierung ersetzen](Input_und_Output_003/readme.md)                  |   |
-| 49. | Input und Output      | [Daten mit `DataOutputStream` und `DataInputStream` verarbeiten](Input_und_Output_004/readme.md)  |   |
-| 50. | Input und Output      | [Daten mit einem `InputStream` lesen](Input_und_Output_005/readme.md)                             |   |
-| 51. | Input und Output      | [Daten mit einem `OutputStream` schreiben](Input_und_Output_006/readme.md)                        |   |
-| 52. | Input und Output      | [Filesystem-Abstraktion mit `File`](Input_und_Output_007/readme.md)                               |   |
-| 53. | Input und Output      | [Fileattribute lesen](Input_und_Output_008/readme.md)                                             |   |
-| 54. | Input und Output      | [`FilterReader`](Input_und_Output_009/readme.md)                                                  |   |
-| 55. | Input und Output      | [Konsolen Input/Output](Input_und_Output_010/readme.md)                                           |   |
-| 56. | Input und Output      | [Zeilen einer Textdatei zählen](Input_und_Output_011/readme.md)                                   |   |
-| 57. | Input und Output      | [`RandomAccessFile`](Input_und_Output_012/readme.md)                                              |   |
-| 58. | Input und Output      | [`Reader` verwenden](Input_und_Output_013/readme.md)                                              |   |
-| 59. | Input und Output      | [Rot13-Verschlüsselung](Input_und_Output_014/readme.md)                                           |   |
-| 60. | Input und Output      | [Datei zerhacken](Input_und_Output_015/readme.md)                                                 |   |
-| 61. | Input und Output      | [Serialisierung](Input_und_Output_016/readme.md)                                                  |   |
+| 46. | Input und Output      | [`BufferedReader` zum zeilenweisen Lesen einsetzen](Input_und_Output_001/readme.md)               |  [✅](Input_und_Output_001/solution/) |
+| 47. | Input und Output      | [DataOutputStream](Input_und_Output_002/readme.md)                                                |  [✅](Input_und_Output_002/solution/) |
+| 48. | Input und Output      | [DataOutputStream durch Serialisierung ersetzen](Input_und_Output_003/readme.md)                  |  [✅](Input_und_Output_003/solution/) |
+| 49. | Input und Output      | [Daten mit `DataOutputStream` und `DataInputStream` verarbeiten](Input_und_Output_004/readme.md)  |  [✅](Input_und_Output_004/solution/) |
+| 50. | Input und Output      | [Daten mit einem `InputStream` lesen](Input_und_Output_005/readme.md)                             |  [✅](Input_und_Output_005/solution/) |
+| 51. | Input und Output      | [Daten mit einem `OutputStream` schreiben](Input_und_Output_006/readme.md)                        |  [✅](Input_und_Output_006/solution/) |
+| 52. | Input und Output      | [Filesystem-Abstraktion mit `File`](Input_und_Output_007/readme.md)                               |  [✅](Input_und_Output_007/solution/) |
+| 53. | Input und Output      | [Fileattribute lesen](Input_und_Output_008/readme.md)                                             |  [✅](Input_und_Output_008/solution/) |
+| 54. | Input und Output      | [`FilterReader`](Input_und_Output_009/readme.md)                                                  |  [✅](Input_und_Output_009/solution/) |
+| 55. | Input und Output      | [Konsolen Input/Output](Input_und_Output_010/readme.md)                                           |  [✅](Input_und_Output_010/solution/) |
+| 56. | Input und Output      | [Zeilen einer Textdatei zählen](Input_und_Output_011/readme.md)                                   |  [✅](Input_und_Output_011/solution/) |
+| 57. | Input und Output      | [`RandomAccessFile`](Input_und_Output_012/readme.md)                                              |  [✅](Input_und_Output_012/solution/) |
+| 58. | Input und Output      | [`Reader` verwenden](Input_und_Output_013/readme.md)                                              |  [✅](Input_und_Output_013/solution/) |
+| 59. | Input und Output      | [Rot13-Verschlüsselung](Input_und_Output_014/readme.md)                                           |  [✅](Input_und_Output_014/solution/) |
+| 60. | Input und Output      | [Datei zerhacken](Input_und_Output_015/readme.md)                                                 |  [✅](Input_und_Output_015/solution/) |
+| 61. | Input und Output      | [Serialisierung](Input_und_Output_016/readme.md)                                                  |  [✅](Input_und_Output_016/solution/) |
 | 62. | Generische Typen      | [Einen generischen Typ schreiben](Generische_Typen_001/readme.md)                                 |   |
 | 63. | Generische Typen      | [Generische Klasse Pair schreiben](Generische_Typen_002/readme.md)                                |   |
 | 64. | Generische Typen      | [Generische Klasse Pair erweitern: NumberPair](Generische_Typen_003/readme.md)                    |   |

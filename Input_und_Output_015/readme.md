@@ -1,6 +1,6 @@
 # Datei zerhacken
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Daten byteweise aus einem Stream lesen.

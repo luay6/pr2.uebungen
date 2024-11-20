@@ -1,6 +1,6 @@
 # Daten mit `DataOutputStream` und `DataInputStream` verarbeiten
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Ein eigenes Format für die Daten einer Klasse definieren und diese Dann in einer Datei speichern und aus dieser wieder laden.

@@ -1,6 +1,6 @@
 # Daten mit einem `OutputStream` schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Einen `OutputStream` verwenden, um Daten zu schreiben.

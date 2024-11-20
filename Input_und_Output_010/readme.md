@@ -1,6 +1,6 @@
 # Konsolen Input/Output
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Daten von der Konsole lesen und über eine Ausgabeumlenkung in eine Datei umlenken. `PrintStream` und `InputStreamReader` einsetzen.
