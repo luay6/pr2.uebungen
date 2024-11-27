@@ -1,6 +1,6 @@
 # PairList
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Sammlungen von Objekten eines generischen Typs erstellen.

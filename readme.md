@@ -73,15 +73,15 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 59. | Input und Output      | [Rot13-Verschlüsselung](Input_und_Output_014/readme.md)                                           |  [✅](Input_und_Output_014/solution/) |
 | 60. | Input und Output      | [Datei zerhacken](Input_und_Output_015/readme.md)                                                 |  [✅](Input_und_Output_015/solution/) |
 | 61. | Input und Output      | [Serialisierung](Input_und_Output_016/readme.md)                                                  |  [✅](Input_und_Output_016/solution/) |
-| 62. | Generische Typen      | [Einen generischen Typ schreiben](Generische_Typen_001/readme.md)                                 |   |
-| 63. | Generische Typen      | [Generische Klasse Pair schreiben](Generische_Typen_002/readme.md)                                |   |
-| 64. | Generische Typen      | [Generische Klasse Pair erweitern: NumberPair](Generische_Typen_003/readme.md)                    |   |
-| 65. | Generische Typen      | [Generische Klasse Pair erweitern: SamePair](Generische_Typen_004/readme.md)                      |   |
-| 66. | Generische Typen      | [PairList](Generische_Typen_005/readme.md)                                                        |   |
-| 67. | Generische Typen      | [Wildcard benutzen](Generische_Typen_006/readme.md)                                               |   |
-| 68. | Generische Typen      | [Generische Queue](Generische_Typen_007/readme.md)                                                |   |
-| 69. | Generische Typen      | [`super` und `extends` einsetzen](Generische_Typen_008/readme.md)                                 |   |
-| 70. | Generische Typen      | [Generische Typen zusammen mit Wildcards einsetzen](Generische_Typen_009/readme.md)               |   |
+| 62. | Generische Typen      | [Einen generischen Typ schreiben](Generische_Typen_001/readme.md)                                 |  [✅](Generische_Typen_001/solution/) |
+| 63. | Generische Typen      | [Generische Klasse Pair schreiben](Generische_Typen_002/readme.md)                                |  [✅](Generische_Typen_002/solution/) |
+| 64. | Generische Typen      | [Generische Klasse Pair erweitern: NumberPair](Generische_Typen_003/readme.md)                    |  [✅](Generische_Typen_003/solution/) |
+| 65. | Generische Typen      | [Generische Klasse Pair erweitern: SamePair](Generische_Typen_004/readme.md)                      |  [✅](Generische_Typen_004/solution/) |
+| 66. | Generische Typen      | [PairList](Generische_Typen_005/readme.md)                                                        |  [✅](Generische_Typen_005/solution/) |
+| 67. | Generische Typen      | [Wildcard benutzen](Generische_Typen_006/readme.md)                                               |  [✅](Generische_Typen_006/solution/) |
+| 68. | Generische Typen      | [Generische Queue](Generische_Typen_007/readme.md)                                                |  [✅](Generische_Typen_007/solution/) |
+| 69. | Generische Typen      | [`super` und `extends` einsetzen](Generische_Typen_008/readme.md)                                 |  [✅](Generische_Typen_008/solution/) |
+| 70. | Generische Typen      | [Generische Typen zusammen mit Wildcards einsetzen](Generische_Typen_009/readme.md)               |  [✅](Generische_Typen_009/solution/) |
 | 71. | Geschachtelte Klassen | [Eigene compare-Methode schreiben](Geschachtelte_Klassen_001/readme.md)                           |   |
 | 72. | Geschachtelte Klassen | [Innere Klasse Beobachter](Geschachtelte_Klassen_002/readme.md)                                   |   |
 | 73. | Geschachtelte Klassen | [Callback mit anonymer Klasse realisieren](Geschachtelte_Klassen_003/readme.md)                   |   |

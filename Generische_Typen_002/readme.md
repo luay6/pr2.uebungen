@@ -1,6 +1,6 @@
 # Generische Klasse Pair schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Von einem generischen Typ erben.

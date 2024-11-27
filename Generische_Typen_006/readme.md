@@ -1,6 +1,6 @@
 # Wildcard benutzen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Wildcards einsetzen.

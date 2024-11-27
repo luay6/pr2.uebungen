@@ -1,6 +1,6 @@
 # Generische Queue
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Einen komplexeren generischen Typ entwickeln.

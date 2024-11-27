@@ -1,6 +1,6 @@
 # `super` und `extends` einsetzen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Methoden unter Verwendung von `super` und `extends` gestalten, sodass sie flexibel auch mit Sub- bzw. Supertypen umgehen können.

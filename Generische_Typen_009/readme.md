@@ -1,6 +1,6 @@
 # Generische Typen zusammen mit Wildcards einsetzen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Gebundene und ungebundene Wildcards einsetzen.
