@@ -1,6 +1,6 @@
 # StringTransmogrifier
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Funktionale Interfaces entwerfen und verwenden.

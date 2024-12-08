@@ -1,6 +1,6 @@
 # Callback mit anonymer Klasse realisieren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Eine gegebene Funktion durch einen Callback parametrieren. Der Callback wird als anonyme innere Klasse realisiert.

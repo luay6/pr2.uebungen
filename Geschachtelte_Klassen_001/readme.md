@@ -1,6 +1,6 @@
 # MatrixSuche
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Statische innere Klassen einsetzen.

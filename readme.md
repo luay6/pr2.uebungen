@@ -82,14 +82,14 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 68. | Generische Typen      | [Generische Queue](Generische_Typen_007/readme.md)                                                |  [✅](Generische_Typen_007/solution/) |
 | 69. | Generische Typen      | [`super` und `extends` einsetzen](Generische_Typen_008/readme.md)                                 |  [✅](Generische_Typen_008/solution/) |
 | 70. | Generische Typen      | [Generische Typen zusammen mit Wildcards einsetzen](Generische_Typen_009/readme.md)               |  [✅](Generische_Typen_009/solution/) |
-| 71. | Geschachtelte Klassen | [Eigene compare-Methode schreiben](Geschachtelte_Klassen_001/readme.md)                           |   |
-| 72. | Geschachtelte Klassen | [Innere Klasse Beobachter](Geschachtelte_Klassen_002/readme.md)                                   |   |
-| 73. | Geschachtelte Klassen | [Callback mit anonymer Klasse realisieren](Geschachtelte_Klassen_003/readme.md)                   |   |
-| 74. | Lambdas               | [Comparator als Lambda](Lambdas_001/readme.md)                                                    |   |
-| 75. | Lambdas               | [Callback mit Lambda realisieren](Lambdas_002/readme.md)                                          |   |
-| 76. | Geschachtelte Klassen | [MatrixSuche](Geschachtelte_Klassen_001/readme.md)                                                |   |
-| 77. | Lambdas               | [StringTransmogrifier](Lambdas_001/readme.md)                                                     |   |
-| 78. | Lambdas               | [StringTransmogrifier erweitern](Lambdas_002/readme.md)                                           |   |
+| 71. | Geschachtelte Klassen | [Eigene compare-Methode schreiben](Geschachtelte_Klassen_001/readme.md)                           |  [✅](Geschachtelte_Klassen_001/solution/) |
+| 72. | Geschachtelte Klassen | [Innere Klasse Beobachter](Geschachtelte_Klassen_002/readme.md)                                   |  [✅](Geschachtelte_Klassen_002/solution/) |
+| 73. | Geschachtelte Klassen | [Callback mit anonymer Klasse realisieren](Geschachtelte_Klassen_003/readme.md)                   |  [✅](Geschachtelte_Klassen_003/solution/) |
+| 74. | Lambdas               | [Comparator als Lambda](Lambdas_001/readme.md)                                                    |  [✅](Lambdas_001/solution/) |
+| 75. | Lambdas               | [Callback mit Lambda realisieren](Lambdas_002/readme.md)                                          |  [✅](Lambdas_002/solution/) |
+| 76. | Geschachtelte Klassen | [MatrixSuche](Geschachtelte_Klassen_001/readme.md)                                                |  [✅](Geschachtelte_Klassen_001/solution/) |
+| 77. | Lambdas               | [StringTransmogrifier](Lambdas_001/readme.md)                                                     |  [✅](Lambdas_001/solution/) |
+| 78. | Lambdas               | [StringTransmogrifier erweitern](Lambdas_002/readme.md)                                           |  [✅](Lambdas_002/solution/) |
 | 79. | Collections           | [Iterator schreiben](Collections_001/readme.md)                                                   |   |
 | 80. | Collections           | [Iterator programmieren](Collections_002/readme.md)                                               |   |
 | 81. | Collections           | [`List<T>` und dessen Implementierungen](Collections_003/readme.md)                               |   |
