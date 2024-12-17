@@ -37,3 +37,4 @@ public final class ZooSimulation {
             System.out.println(tier);
         }
     }
+}

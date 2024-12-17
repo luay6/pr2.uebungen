@@ -22,3 +22,20 @@ public class WuerfelTest {
             internalTestFairness(new Wuerfel(typ), typ.average());
         }
     }
+
+    /**
+     * Interne Hilfsmethode, um die Fairness zu testen.
+     *
+     * @param w        der zu testende Wuerfel.
+     * @param expected Erwartungswert.
+     */
+    private void internalTestFairness(Wuerfel w, double expected) {
+        long sum = 0;
+
+        for (int i = 0; i < RUNS; i++) {
+            sum += w.roll();
+        }
+        double average = (double) sum / (double) RUNS;
+        assertEquals(expected, average, 0.1);
+    }
+}

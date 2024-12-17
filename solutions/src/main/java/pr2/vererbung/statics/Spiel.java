@@ -31,3 +31,5 @@ public final class Spiel {
         System.out.println("Statistik für alle Würfel");
         System.out.println(Wuerfel.statistik());
         System.out.println();
+    }
+}

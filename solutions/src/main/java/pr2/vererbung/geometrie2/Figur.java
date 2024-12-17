@@ -4,15 +4,3 @@ public class Figur {
 
     private final int flaeche; 
 
-
-//    protected Figur() {
-//        /* nichts zu tun */
-//    }
-    protected Figur(int flaeche) {
-        this.flaeche = flaeche;
-    }
-
-    public int getFlaeche() {
-        return flaeche;
-    }
-}

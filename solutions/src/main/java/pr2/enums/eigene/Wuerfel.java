@@ -8,22 +8,6 @@ import java.util.Random;
 public class Wuerfel {
 
 
-//    /** 4-seitiger Würfel. */
-//    public static final int D4 = 4;
-//
-//    /** 6-seitiger Würfel. */
-//    public static final int D6 = 6;
-//
-//    /** 8-seitiger Würfel. */
-//    public static final int D8 = 8;
-//
-//    /** 10-seitiger Würfel. */
-//    public static final int D10 = 10;
-//
-//    /** 12-seitiger Würfel. */
-//    public static final int D12 = 13;
-
-
     /**
      * Zufallszahlengenerator.
      */

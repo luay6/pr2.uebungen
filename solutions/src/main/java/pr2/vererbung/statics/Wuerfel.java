@@ -50,3 +50,4 @@ public class Wuerfel {
 
         return result.toString();
     }
+}

@@ -27,4 +27,3 @@ class ListeNode<T> {
         this.data = data;
     }
 }
-

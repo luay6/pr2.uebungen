@@ -9,7 +9,6 @@ package pr2.intro.javadoc;
  * Objekte dieser Klasse sind imutable, d.h. sie können nach der Erzeugung
  * nicht mehr verändert werden.
  */
-
 public class Waehrung {
 
     /**

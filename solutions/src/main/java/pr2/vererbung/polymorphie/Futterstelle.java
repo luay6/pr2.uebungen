@@ -14,3 +14,4 @@ public class Futterstelle {
         tier.fuettern();
     }
 
+}

@@ -51,4 +51,3 @@ public class CodingStandard {
         return result;
     }
 }
-
