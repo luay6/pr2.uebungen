@@ -1,0 +1,17 @@
+package pr2.streams.chars_3;
+
+import java.util.List;
+
+public class CountLetters {
+    public static long count(List<String> liste) {
+
+        long chars;
+
+        chars = liste.stream()
+                .flatMapToInt(s -> s.chars())
+                .filter(Character::isLowerCase)
+                .count();
+
+        return chars;
+    }
+}

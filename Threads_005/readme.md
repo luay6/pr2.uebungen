@@ -1,6 +1,6 @@
 # Race-Condition finden und beheben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 In einem gegebenen Programm Race-Conditions finden und durch den Einsatz von kritischen Abschnitten beheben.

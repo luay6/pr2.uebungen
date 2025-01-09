@@ -1,6 +1,5 @@
 package pr2.generics.einfach;
 
-
 /**
  * Interne Repräsentation der Knoten in der Liste.
  *

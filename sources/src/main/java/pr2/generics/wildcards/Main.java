@@ -32,8 +32,8 @@ public final class Main {
         l2.add(4);
         l2.add(5);
 
-//        ListHelper.printList(l1);  
-//        ListHelper.printList(l2);  
-//        System.out.println(ListHelper.sumList(l2));  
+//        ListHelper.printList(l1);
+//        ListHelper.printList(l2);
+//        System.out.println(ListHelper.sumList(l2));
     }
 }

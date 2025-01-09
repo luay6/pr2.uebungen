@@ -23,8 +23,8 @@ public class Wuerfel {
      *
      * @param typ Anzahl der Seiten des Würfels.
      */
-    public Wuerfel(WuerfelTyp typ) { 
-        this.numSides = typ.getSeiten(); 
+    public Wuerfel(WuerfelTyp typ) {
+        this.numSides = typ.getSeiten();
     }
 
     /**

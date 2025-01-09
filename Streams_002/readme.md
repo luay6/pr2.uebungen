@@ -1,6 +1,6 @@
 # Buchstaben in einer Liste von Strings zählen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Streams verwenden.

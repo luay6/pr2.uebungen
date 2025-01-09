@@ -1,6 +1,6 @@
 package pr2.interfaces.comparable_student;
 
-public class Student implements Comparable { 
+public class Student implements Comparable {
 
     private final String vorname;
     private final String nachname;

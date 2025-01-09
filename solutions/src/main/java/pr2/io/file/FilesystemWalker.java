@@ -70,7 +70,7 @@ public class FilesystemWalker {
             throw new RuntimeException(e);
         }
 
-        return size; 
+        return size;
     }
 
     /**

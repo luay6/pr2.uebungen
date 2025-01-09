@@ -1,6 +1,5 @@
 package pr2.intro.javadoc;
 
-
 /**
  * Objekte dieser Klasse repräsentieren eine Währung. Eine Währung zeichnet
  * sich durch einen Namen (z.B. EURO), ein Kürzel (z.B. € oder EUR) und einen

@@ -1,6 +1,6 @@
 # Stack und Heap unterscheiden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Unterschied zwischen Stack und Heap bei parallelen Programmen verstehen.

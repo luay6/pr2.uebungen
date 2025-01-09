@@ -3,7 +3,7 @@ package pr2.exceptions.eigene_ausnahme;
 /**
  * Ausnahme, wenn die Sicherung auslöst.
  */
-public class FuseTrippedException extends Exception { 
+public class FuseTrippedException extends Exception {
     /**
      * Strom, bei dem die Sicherung ausgelöst hat.
      */

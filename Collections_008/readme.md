@@ -1,6 +1,6 @@
 # CommandLineSorter
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Sortieren von Collections.

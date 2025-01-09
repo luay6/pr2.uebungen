@@ -1,6 +1,6 @@
 # Parallele Ausgaben erzeugen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Erste Schritte mit Threads.

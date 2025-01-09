@@ -79,6 +79,8 @@ public class Buchstabenzaehler {
      * @throws IOException           generelles IO-Problem
      * @throws FileNotFoundException Datei gibt es nicht
      */
+    
+            
     private int[] parseFile(String filename) {
 
         int[] statistik = new int['z' - 'a' + 1];

@@ -5,12 +5,12 @@ import pr2.exceptions.fakultaet.Fakultaet;
 import pr2.exceptions.fakultaet.FakultaetException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;  
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FakultaetTest {
 
     @Test
-    void testFact() throws FakultaetException { 
+    void testFact() throws FakultaetException {
         Fakultaet f = new Fakultaet();
         assertEquals(1, f.fact(0));
         assertEquals(1, f.fact(1));

@@ -5,7 +5,6 @@ package pr2.generics.einfach;
  *
  * @param <T> Typ der gespeicherten Objekte
  */
-
 public class Liste<T> {
 
     /**

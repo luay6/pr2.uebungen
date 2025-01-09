@@ -20,11 +20,11 @@ public class Main {
 
         NumberSelector s = new NumberSelector();
 
-        int[] gerade = s.filter((i) -> i % 2 == 0, ZAHLEN); 
+        int[] gerade = s.filter((i) -> i % 2 == 0, ZAHLEN);
 
         System.out.println(Arrays.toString(gerade));
 
-        int[] ungerade = s.filter((i) -> i % 2 != 0, ZAHLEN);  
+        int[] ungerade = s.filter((i) -> i % 2 != 0, ZAHLEN);
 
         System.out.println(Arrays.toString(ungerade));
     }

@@ -31,7 +31,7 @@ public final class Umwandler {
      * @return Umgewandelte Zahl
      */
     public static int fromString(String s) {
-        return Integer.parseInt(s); 
+        return Integer.parseInt(s);
     }
 
     /**

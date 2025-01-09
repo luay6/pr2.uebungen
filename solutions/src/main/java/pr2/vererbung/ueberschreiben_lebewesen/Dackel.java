@@ -1,6 +1,6 @@
 package pr2.vererbung.ueberschreiben_lebewesen;
 
-public class Dackel extends Lebewesen { 
+public class Dackel extends Lebewesen {
 
     @Override
     public void bewegen() {

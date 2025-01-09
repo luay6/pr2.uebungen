@@ -1,6 +1,6 @@
 # Timer und TimerTask verwenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Klassen aus `java.util.concurrent` verwenden.

@@ -3,6 +3,7 @@ package pr2.enums.eigene.test;
 import org.junit.jupiter.api.Test;
 import pr2.enums.eigene.Wuerfel;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**

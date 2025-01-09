@@ -3,7 +3,7 @@ package pr2.vererbung.konstruktoren;
 /**
  * Nachtelf aus der Allianz.
  */
- public class Nachtelf {
+public class Nachtelf {
 
     /**
      * Standardmäßige Stärke der Fähigkeit Naturwiderstand.

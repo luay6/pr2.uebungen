@@ -1,6 +1,6 @@
 package pr2.lambda.mogrifier_2;
 
-@FunctionalInterface  
+@FunctionalInterface
 public interface StringFunction {
     static StringFunction caesar(final int shift) {
         return (s) -> shiftCharacters(s, shift);

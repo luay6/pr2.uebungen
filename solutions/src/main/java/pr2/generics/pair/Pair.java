@@ -1,6 +1,6 @@
 package pr2.generics.pair;
 
-public class Pair<T, V> { 
+public class Pair<T, V> {
 
     private final T first;
     private final V second;

@@ -3,7 +3,7 @@ package pr2.vererbung.vererbung_geometrie;
 /**
  * Eine Gerade.
  */
-public class Gerade extends Figur { 
+public class Gerade extends Figur {
 
     /**
      * Länge der Geraden.

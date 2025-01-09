@@ -1,5 +1,5 @@
 package pr2.vererbung.ueberschreiben_lebewesen;
 
- public class Amoebe {
+public class Amoebe {
 
 }

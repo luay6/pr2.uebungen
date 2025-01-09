@@ -90,34 +90,34 @@ Hinweise zur nötigen Softwareausstattung finden Sie [hier](help/softwareausstat
 | 76. | Geschachtelte Klassen | [MatrixSuche](Geschachtelte_Klassen_001/readme.md)                                                |  [✅](Geschachtelte_Klassen_001/solution/) |
 | 77. | Lambdas               | [StringTransmogrifier](Lambdas_001/readme.md)                                                     |  [✅](Lambdas_001/solution/) |
 | 78. | Lambdas               | [StringTransmogrifier erweitern](Lambdas_002/readme.md)                                           |  [✅](Lambdas_002/solution/) |
-| 79. | Collections           | [Iterator schreiben](Collections_001/readme.md)                                                   |   |
-| 80. | Collections           | [Iterator programmieren](Collections_002/readme.md)                                               |   |
-| 81. | Collections           | [`List<T>` und dessen Implementierungen](Collections_003/readme.md)                               |   |
-| 82. | Collections           | [`Map<T>` verwenden](Collections_004/readme.md)                                                   |   |
-| 83. | Collections           | [ReverserGeneric](Collections_005/readme.md)                                                      |   |
-| 84. | Collections           | [Strings umgekehrt sortieren: Reverser](Collections_006/readme.md)                                |   |
-| 85. | Collections           | [`Set<T>` und dessen Implementierungen](Collections_007/readme.md)                                |   |
-| 86. | Collections           | [CommandLineSorter](Collections_008/readme.md)                                                    |   |
-| 87. | Collections           | [CommandLineSorter -- Version 2](Collections_009/readme.md)                                       |   |
-| 88. | Collections           | [`Comparator<T>` verwenden und Objekte sortieren](Collections_010/readme.md)                      |   |
-| 89. | Collections           | [Wörterbuchprogramm](Collections_011/readme.md)                                                   |   |
-| 90. | Streams               | [Kleinbuchstaben in einem String zählen](Streams_001/readme.md)                                   |   |
-| 91. | Streams               | [Buchstaben in einer Liste von Strings zählen](Streams_002/readme.md)                             |   |
-| 92. | Streams               | [Kleinbuchstaben in einem String zählen](Streams_003/readme.md)                                   |   |
-| 93. | Streams               | [Liste filtern](Streams_004/readme.md)                                                            |   |
-| 94. | Streams               | [Streams mit interner Iteration](Streams_005/readme.md)                                           |   |
-| 95. | Streams               | [Map und Filter auf Streams](Streams_006/readme.md)                                               |   |
-| 96. | Streams               | [Map und Reduce auf Streams](Streams_007/readme.md)                                               |   |
-| 97. | Streams               | [Reduce](Streams_008/readme.md)                                                                   |   |
-| 98. | Streams               | [Summe über reduce bestimmen](Streams_009/readme.md)                                              |   |
-| 99. | Streams               | [Wörter zählen](Streams_010/readme.md)                                                            |   |
-| 100. | Threads               | [Fakultät parallel berechnen](Threads_001/readme.md)                                              |   |
-| 101. | Threads               | [Thread per interrupt beenden](Threads_002/readme.md)                                             |   |
-| 102. | Threads               | [wait und notify benutzen](Threads_003/readme.md)                                                 |   |
-| 103. | Threads               | [Parallele Ausgaben erzeugen](Threads_004/readme.md)                                              |   |
-| 104. | Threads               | [Race-Condition finden und beheben](Threads_005/readme.md)                                        |   |
-| 105. | Threads               | [Stack und Heap unterscheiden](Threads_006/readme.md)                                             |   |
-| 106. | Threads               | [synchronized verwenden](Threads_007/readme.md)                                                   |   |
-| 107. | Threads               | [Timer und TimerTask verwenden](Threads_008/readme.md)                                            |   |
+| 79. | Collections           | [Iterator schreiben](Collections_001/readme.md)                                                   |  [✅](Collections_001/solution/) |
+| 80. | Collections           | [Iterator programmieren](Collections_002/readme.md)                                               |  [✅](Collections_002/solution/) |
+| 81. | Collections           | [`List<T>` und dessen Implementierungen](Collections_003/readme.md)                               |  [✅](Collections_003/solution/) |
+| 82. | Collections           | [`Map<T>` verwenden](Collections_004/readme.md)                                                   |  [✅](Collections_004/solution/) |
+| 83. | Collections           | [ReverserGeneric](Collections_005/readme.md)                                                      |  [✅](Collections_005/solution/) |
+| 84. | Collections           | [Strings umgekehrt sortieren: Reverser](Collections_006/readme.md)                                |  [✅](Collections_006/solution/) |
+| 85. | Collections           | [`Set<T>` und dessen Implementierungen](Collections_007/readme.md)                                |  [✅](Collections_007/solution/) |
+| 86. | Collections           | [CommandLineSorter](Collections_008/readme.md)                                                    |  [✅](Collections_008/solution/) |
+| 87. | Collections           | [CommandLineSorter -- Version 2](Collections_009/readme.md)                                       |  [✅](Collections_009/solution/) |
+| 88. | Collections           | [`Comparator<T>` verwenden und Objekte sortieren](Collections_010/readme.md)                      |  [✅](Collections_010/solution/) |
+| 89. | Collections           | [Wörterbuchprogramm](Collections_011/readme.md)                                                   |  [✅](Collections_011/solution/) |
+| 90. | Streams               | [Kleinbuchstaben in einem String zählen](Streams_001/readme.md)                                   |  [✅](Streams_001/solution/) |
+| 91. | Streams               | [Buchstaben in einer Liste von Strings zählen](Streams_002/readme.md)                             |  [✅](Streams_002/solution/) |
+| 92. | Streams               | [Kleinbuchstaben in einem String zählen](Streams_003/readme.md)                                   |  [✅](Streams_003/solution/) |
+| 93. | Streams               | [Liste filtern](Streams_004/readme.md)                                                            |  [✅](Streams_004/solution/) |
+| 94. | Streams               | [Streams mit interner Iteration](Streams_005/readme.md)                                           |  [✅](Streams_005/solution/) |
+| 95. | Streams               | [Map und Filter auf Streams](Streams_006/readme.md)                                               |  [✅](Streams_006/solution/) |
+| 96. | Streams               | [Map und Reduce auf Streams](Streams_007/readme.md)                                               |  [✅](Streams_007/solution/) |
+| 97. | Streams               | [Reduce](Streams_008/readme.md)                                                                   |  [✅](Streams_008/solution/) |
+| 98. | Streams               | [Summe über reduce bestimmen](Streams_009/readme.md)                                              |  [✅](Streams_009/solution/) |
+| 99. | Streams               | [Wörter zählen](Streams_010/readme.md)                                                            |  [✅](Streams_010/solution/) |
+| 100. | Threads               | [Fakultät parallel berechnen](Threads_001/readme.md)                                              |  [✅](Threads_001/solution/) |
+| 101. | Threads               | [Thread per interrupt beenden](Threads_002/readme.md)                                             |  [✅](Threads_002/solution/) |
+| 102. | Threads               | [wait und notify benutzen](Threads_003/readme.md)                                                 |  [✅](Threads_003/solution/) |
+| 103. | Threads               | [Parallele Ausgaben erzeugen](Threads_004/readme.md)                                              |  [✅](Threads_004/solution/) |
+| 104. | Threads               | [Race-Condition finden und beheben](Threads_005/readme.md)                                        |  [✅](Threads_005/solution/) |
+| 105. | Threads               | [Stack und Heap unterscheiden](Threads_006/readme.md)                                             |  [✅](Threads_006/solution/) |
+| 106. | Threads               | [synchronized verwenden](Threads_007/readme.md)                                                   |  [✅](Threads_007/solution/) |
+| 107. | Threads               | [Timer und TimerTask verwenden](Threads_008/readme.md)                                            |  [✅](Threads_008/solution/) |
 | 108. | Reflection            | [Klasse per Reflection analysieren](Reflection_001/readme.md)                                     |   |
 | 109. | Reflection            | [Objekte per Reflection erzeugen](Reflection_002/readme.md)                                       |   |

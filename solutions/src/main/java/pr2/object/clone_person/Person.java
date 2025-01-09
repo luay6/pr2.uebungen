@@ -2,7 +2,7 @@ package pr2.object.clone_person;
 
 import java.util.Date;
 
-public class Person implements Cloneable { 
+public class Person implements Cloneable {
 
     private final String vorname = "";
     private final String nachname = "";

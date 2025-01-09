@@ -3,7 +3,7 @@ package pr2.vererbung.vererbung_geometrie;
 /**
  * Ein Dreieck.
  */
-public class Dreieck extends Figur { 
+public class Dreieck extends Figur {
 
     /**
      * Erzeugt ein neues Dreieck mit den gegebenen Daten.

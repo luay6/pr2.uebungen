@@ -39,7 +39,7 @@ public class Board implements Serializable {
             throw new IOException("Serialization: Class not found", e);
         }
 
-        return result; 
+        return result;
     }
 
     /**

@@ -1,6 +1,6 @@
 # Iterator programmieren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Iteratoren verstehen und programmieren.

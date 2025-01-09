@@ -3,7 +3,7 @@ package pr2.vererbung.finals;
 /**
  * B-Klasse.
  */
- public class B extends A {
+public class B extends A {
 
     /**
      * Subtrahiert zwei Zahlen. Wenn das Ergebnis kleiner ist als

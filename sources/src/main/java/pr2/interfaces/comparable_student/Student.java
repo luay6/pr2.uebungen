@@ -1,6 +1,6 @@
 package pr2.interfaces.comparable_student;
 
- public class Student {
+public class Student {
 
     private final String vorname;
     private final String nachname;

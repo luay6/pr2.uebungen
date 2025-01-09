@@ -1,6 +1,6 @@
 package pr2.generics.queue;
 
-public class Queue<T> { 
+public class Queue<T> {
 
     private final T[] elements;
     private int pos = 0;

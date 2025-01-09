@@ -1,6 +1,6 @@
 package pr2.vererbung.geometrie3;
 
-public class Gerade extends Figur { 
+public class Gerade extends Figur {
 
     private final int laenge;
 

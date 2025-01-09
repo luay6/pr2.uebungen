@@ -20,7 +20,7 @@ public class Main {
 
         NumberSelector s = new NumberSelector();
 
-        int[] gerade; 
+        int[] gerade;
 
         gerade = s.filter(new Predicate<Integer>() {
             @Override
@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println(Arrays.toString(gerade));
 
-        int[] ungerade;  
+        int[] ungerade;
 
         ungerade = s.filter(new Predicate<Integer>() {
             @Override

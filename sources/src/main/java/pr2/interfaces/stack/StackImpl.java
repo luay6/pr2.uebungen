@@ -1,5 +1,5 @@
 package pr2.interfaces.stack;
 
- public class StackImpl {
+public class StackImpl {
 
 }

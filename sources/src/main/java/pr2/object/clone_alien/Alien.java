@@ -3,7 +3,7 @@ package pr2.object.clone_alien;
 /**
  * Ein Alien.
  */
- public class Alien {
+public class Alien {
 
     /**
      * Name des Aliens.

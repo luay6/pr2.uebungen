@@ -1,6 +1,6 @@
 package pr2.generics.pairlist;
 
-public class PairList<T, V> { 
+public class PairList<T, V> {
 
     protected final Pair<T, V>[] elements;
     protected int pos;

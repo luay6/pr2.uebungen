@@ -4,7 +4,6 @@ package pr2.intro.coding_standard;
  * Klasse dient als Beispiel für den Coding-Standard und die Namenskonventionen
  * bei Java-Programmen.
  */
-
 @SuppressWarnings("PMD.UnusedPrivateField")
 public class CodingStandard {
 

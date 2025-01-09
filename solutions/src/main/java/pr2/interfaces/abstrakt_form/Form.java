@@ -1,6 +1,6 @@
 package pr2.interfaces.abstrakt_form;
 
-public abstract class Form { 
+public abstract class Form {
 
     protected double x;
     protected double y;

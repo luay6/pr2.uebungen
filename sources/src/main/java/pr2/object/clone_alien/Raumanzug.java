@@ -3,7 +3,7 @@ package pr2.object.clone_alien;
 /**
  * Ein Raumanzug.
  */
- public class Raumanzug {
+public class Raumanzug {
 
     /**
      * Sauerstoffvorrat, der noch im Raumanzug ist.

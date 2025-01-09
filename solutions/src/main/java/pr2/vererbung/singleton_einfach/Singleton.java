@@ -1,6 +1,6 @@
 package pr2.vererbung.singleton_einfach;
 
-public final class Singleton { 
+public final class Singleton {
 
     private static final Singleton INSTANCE = new Singleton();
 

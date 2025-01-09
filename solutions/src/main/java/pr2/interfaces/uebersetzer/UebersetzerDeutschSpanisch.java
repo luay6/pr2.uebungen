@@ -1,4 +1,3 @@
-
 package pr2.interfaces.uebersetzer;
 
 public class UebersetzerDeutschSpanisch implements Uebersetzer {

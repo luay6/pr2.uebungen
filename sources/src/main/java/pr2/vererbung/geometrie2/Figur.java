@@ -7,6 +7,9 @@ public class Figur {
     protected Figur() {
         /* nichts zu tun */
     }
+    protected Figur(int flaeche) {
+        this.flaeche = flaeche;
+    }
 
     public int getFlaeche() {
         return flaeche;

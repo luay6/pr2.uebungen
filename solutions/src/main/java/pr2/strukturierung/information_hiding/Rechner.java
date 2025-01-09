@@ -6,7 +6,7 @@ package pr2.strukturierung.information_hiding;
 public class Rechner {
 
     /** Speicher des Taschenrechners. */
-    private double speicher; 
+    private double speicher;
 
     /**
      * Addiert zwei Werte und gibt das Ergebnis zurück.
@@ -15,8 +15,8 @@ public class Rechner {
      * @param b zweiter Operand.
      * @return das Ergebnis.
      */
-    public double addiere(double a, double b) { 
-        return a + b; 
+    public double addiere(double a, double b) {
+        return a + b;
     }
 
     /**
@@ -26,8 +26,8 @@ public class Rechner {
      * @param b zweiter Operand.
      * @return das Ergebnis.
      */
-    public double subtrahiere(double a, double b) { 
-        return a - b; 
+    public double subtrahiere(double a, double b) {
+        return a - b;
     }
 
     /**
@@ -37,8 +37,8 @@ public class Rechner {
      * @param b zweiter Operand.
      * @return das Ergebnis.
      */
-    public double multipliziere(double a, double b) { 
-        return a * b; 
+    public double multipliziere(double a, double b) {
+        return a * b;
     }
     /**
      * Gibt den gespeicherten Wert zurück.

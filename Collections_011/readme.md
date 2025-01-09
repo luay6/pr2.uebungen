@@ -1,6 +1,6 @@
 # Wörterbuchprogramm
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Interface `Map` und seine Implementierungen einsetzen.

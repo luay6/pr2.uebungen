@@ -1,6 +1,6 @@
 # Summe über reduce bestimmen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Daten in Streams mit `reduce` aggregieren.

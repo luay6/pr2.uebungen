@@ -3,7 +3,7 @@ package pr2.exceptions.eigene_ausnahme;
 /**
  * Ausnahme, wenn eine Sicherung angelegt werden soll, die es nicht gibt.
  */
-public class IllegalCurrentException extends Exception { 
+public class IllegalCurrentException extends Exception {
 
     /**
      * Übergebener Strom.

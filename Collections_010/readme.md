@@ -1,6 +1,6 @@
 # `Comparator<T>` verwenden und Objekte sortieren
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Verschiedene Sortierreihenfolgen durch die Implementierung von `Comparator<T>` realisieren.

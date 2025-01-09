@@ -3,7 +3,7 @@ package pr2.object.clone_alien;
 /**
  * Ein Alien.
  */
-public class Alien implements Cloneable { 
+public class Alien implements Cloneable {
 
     /**
      * Name des Aliens.

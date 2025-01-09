@@ -18,7 +18,6 @@ public class Buchstabenzaehler {
      */
     public static void main(String[] args) {
         Buchstabenzaehler bs = new Buchstabenzaehler();
-
         try {
             bs.run();
         }
@@ -33,15 +32,12 @@ public class Buchstabenzaehler {
      * @throws StatistikException Fehler bei der Berechnung der
      *                            Buchstabenhäufigkeit.
      */
-    private void run() throws StatistikException { 
+    private void run() throws StatistikException {
         System.out.print("Bitte geben Sie den Dateinamen an: ");
         Scanner scanner = new Scanner(System.in);
         String dateiname = scanner.nextLine();
 
         int[] statistik;
-
-
-
 
         try {
             statistik = parseFile("assets/" + dateiname);
@@ -64,7 +60,7 @@ public class Buchstabenzaehler {
      * @param statistik Statistik
      * @throws StatistikException Fehler bei den Eingabedaten
      */
-    private void printStatistik(int[] statistik) throws StatistikException { 
+    private void printStatistik(int[] statistik) throws StatistikException {
 
         int summe = 0;
 
@@ -98,8 +94,8 @@ public class Buchstabenzaehler {
      * @throws IOException           generelles IO-Problem
      * @throws FileNotFoundException Datei gibt es nicht
      */
-    private int[] parseFile(String filename)  
-            throws IOException, FileNotFoundException {  
+    private int[] parseFile(String filename)
+            throws IOException, FileNotFoundException {
 
         int[] statistik = new int['z' - 'a' + 1];
 

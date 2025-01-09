@@ -1,6 +1,6 @@
 # Strings umgekehrt sortieren: Reverser
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 `Comparable` verstehen und nutzen.

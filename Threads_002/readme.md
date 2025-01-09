@@ -1,6 +1,6 @@
 # Thread per interrupt beenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Threads kontrolliert beenden.

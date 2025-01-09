@@ -3,7 +3,7 @@ package pr2.vererbung.konstruktoren;
 /**
  * Untoter aus der Horde.
  */
-public class Untoter extends Wesen { 
+public class Untoter extends Wesen {
 
     /**
      * Standardmäßige Stärke der Fähigkeit zur Unterwasseratmung.

@@ -7,7 +7,7 @@ import java.util.Iterator;
  *
  * @param <T> Typ, der gespeichert werden soll.
  */
- public class SimpleStack<T> {
+public class SimpleStack<T> {
 // TODO: implements Iterable<T> hinzufügen
 
     // Variablen sind nicht private wegen Zugriff durch den Iterator

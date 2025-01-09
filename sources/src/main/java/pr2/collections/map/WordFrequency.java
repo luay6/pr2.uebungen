@@ -3,7 +3,7 @@ package pr2.collections.map;
 /**
  * Klasse für die Verwaltung der Worthäufigkeiten.
  */
- public class WordFrequency {
+public class WordFrequency {
     // TODO: Sortierbar machen [Comparable]
 
     /**

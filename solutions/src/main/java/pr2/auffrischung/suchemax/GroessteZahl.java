@@ -3,7 +3,7 @@ package pr2.auffrischung.suchemax;
 public class GroessteZahl {
 
     public int sucheMax(int[] zahlen) {
-        int max = Integer.MIN_VALUE; 
+        int max = Integer.MIN_VALUE;
 
         for (int zahl : zahlen) {
             max = Math.max(max, zahl);

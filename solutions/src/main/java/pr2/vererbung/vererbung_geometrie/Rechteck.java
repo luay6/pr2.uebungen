@@ -3,7 +3,7 @@ package pr2.vererbung.vererbung_geometrie;
 /**
  * Rechteck.
  */
-public class Rechteck extends Figur { 
+public class Rechteck extends Figur {
 
     /**
      * Legt ein neues Rechteck an.

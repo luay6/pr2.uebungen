@@ -4,7 +4,7 @@ import java.io.FilterReader;
 import java.io.IOException;
 import java.io.Reader;
 
-public class Rot13Reader extends FilterReader { 
+public class Rot13Reader extends FilterReader {
 
     public Rot13Reader(Reader in) {
         super(in);

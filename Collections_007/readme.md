@@ -1,6 +1,6 @@
 # `Set<T>` und dessen Implementierungen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Das Interface `Set<T>` und eine passende Implementierung einsetzen.

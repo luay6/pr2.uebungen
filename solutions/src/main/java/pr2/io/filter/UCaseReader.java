@@ -7,7 +7,7 @@ import java.io.Reader;
 /**
  * Filter-Reader, der den Inhalt in Großbuchstaben umwandelt.
  */
-public class UCaseReader extends FilterReader { 
+public class UCaseReader extends FilterReader {
 
 
     /**

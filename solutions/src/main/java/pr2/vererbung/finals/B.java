@@ -3,7 +3,7 @@ package pr2.vererbung.finals;
 /**
  * B-Klasse.
  */
-public final class B extends A { 
+public final class B extends A {
 
     /**
      * Subtrahiert zwei Zahlen. Wenn das Ergebnis kleiner ist als
@@ -14,8 +14,8 @@ public final class B extends A {
      * @param b zweiter Wert
      * @return Ergebnis
      */
-    public static int sub(final int a, final int b) { 
-        final int result = a + b; 
+    public static int sub(final int a, final int b) {
+        final int result = a + b;
 
         return (result < KONSTANTE) ? (result * -1) : (result);
     }

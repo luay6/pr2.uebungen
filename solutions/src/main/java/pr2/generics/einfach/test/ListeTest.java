@@ -16,7 +16,7 @@ public class ListeTest {
      */
     @Test
     void testAddAndClear() {
-        Liste<String> l = new Liste<>(); 
+        Liste<String> l = new Liste<>();
 
         assertEquals(0, l.size());
 
@@ -37,7 +37,7 @@ public class ListeTest {
      */
     @Test
     void testGet() {
-        Liste<String> l = new Liste<>(); 
+        Liste<String> l = new Liste<>();
         l.add("Hallo");
         l.add("Hugo");
         l.add("Peter");

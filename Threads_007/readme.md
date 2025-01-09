@@ -1,6 +1,6 @@
 # synchronized verwenden
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Schlüsselwort `synchronized` verwenden.

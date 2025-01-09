@@ -1,6 +1,6 @@
 package pr2.interfaces.stack;
 
-public class StackImpl implements Stack { 
+public class StackImpl implements Stack {
 
     private final Object[] puffer;
     private int pos = -1;

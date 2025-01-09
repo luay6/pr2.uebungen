@@ -1,4 +1,3 @@
-
 package pr2.lambda.observer.test;
 
 import org.junit.jupiter.api.Test;

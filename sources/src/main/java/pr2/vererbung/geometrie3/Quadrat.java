@@ -1,5 +1,5 @@
 package pr2.vererbung.geometrie3;
 
- public class Quadrat {
+public class Quadrat {
 
 }

@@ -1,4 +1,3 @@
-
 package pr2.enums.eigene;
 
 /**

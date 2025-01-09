@@ -1,6 +1,6 @@
 # `List<T>` und dessen Implementierungen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Das Interface `List<T>` und eine passende Implementierung einsetzen.
