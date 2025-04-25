@@ -15,8 +15,8 @@ public class Rot13Reader extends FilterReader {
 
         int charsGelesen = super.read(cbuf, off, len);
 
-        for (int i = 0; i < cbuf.length; i++) {
-            cbuf[i] = cbuf[i] != '\n' ? (char) (cbuf[i] + 13) : '\n';
+        for (int i = off; i < charsGelesen; i++) {
+            cbuf[i] = cbuf[i] == '\n' ? '\n' : (char) (cbuf[i] + 13);
         }
 
         return charsGelesen;
