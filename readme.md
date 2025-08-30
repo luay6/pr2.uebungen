@@ -1,4 +1,4 @@
-# Programmieren 2 (Wintersemester 2024/2025)
+# Programmieren 2 (Wintersemester 2025/2026)
 
 ## 👋 Willkommen zum Kurs Programmieren 2
 
