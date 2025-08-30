@@ -1,6 +1,6 @@
 # Fakultät parallel berechnen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Berechnungen parallelisieren.

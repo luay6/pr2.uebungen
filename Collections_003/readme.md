@@ -1,6 +1,6 @@
 # `List<T>` und dessen Implementierungen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Das Interface `List<T>` und eine passende Implementierung einsetzen.
@@ -11,7 +11,7 @@ Gehen Sie in das Paket [pr2.collections.list](../sources/src/main/java/pr2/colle
 
 Im Projekt finden Sie die Klasse `WordCollector` mit deren Hilfe man die Wörter in einem Text analysieren kann. Nach Übergabe eines Dateinamens wird die Datei eingelesen und die vorhandenen Wörter werden gesammelt. Am Ende wird die Liste der Wörter alphabetisch sortiert ausgegeben.
 
-Leider wurde `WordCollector` von einem Entwickler geschrieben, der nichts von dem Collection-Framework wusste und daher alles mit Array realisiert hat. Hierdurch sind einige sehr komplexe Konstruktionen entstanden.
+Leider wurde `WordCollector` von einem/einer Entwickler:in geschrieben, der nichts von dem Collection-Framework wusste und daher alles mit Array realisiert hat. Hierdurch sind einige sehr komplexe Konstruktionen entstanden.
 
 Lassen Sie das Programm laufen und betrachten Sie die Ausgabe. Schauen Sie sich die Klasse `WordCollector` an und versuchen Sie die Funktionsweise und die Implementierung genau zu verstehen. Dieser Schritt ist wichtig, um die im Folgenden beschriebenen Änderungen an der Klasse vornehmen zu können, lassen Sie sich also Zeit für diesen Schritt.
 

@@ -1,6 +1,6 @@
 # ReverserGeneric
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 `Comparable` verstehen und nutzen.

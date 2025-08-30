@@ -1,6 +1,6 @@
 # Serialisierung
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Serialisierung einsetzen können, um Objekte zu persistieren und wieder zu laden.

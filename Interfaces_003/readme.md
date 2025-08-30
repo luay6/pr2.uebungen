@@ -1,6 +1,6 @@
 # Interface: Uebersetzer
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Ein Interface implementieren.

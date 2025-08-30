@@ -11,21 +11,25 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <junit.jupiter.version>5.9.1</junit.jupiter.version>
-    <junit.platform.version>1.9.1</junit.platform.version>
+    <maven.compiler.source>23</maven.compiler.source>
+    <maven.compiler.target>23</maven.compiler.target>
+    <junit.jupiter.version>5.12.2</junit.jupiter.version>
+    <junit.platform.version>1.12.2</junit.platform.version>
+    <pmdVersion>7.13.0</pmdVersion>
   </properties>
+
   <repositories>
     <repository>
       <id>jitpack.io</id>
       <url>https://jitpack.io</url>
     </repository>
   </repositories>
+
   <build>
     <defaultGoal>install</defaultGoal>
     <directory>${basedir}/target</directory>
     <finalName>${project.artifactId}-${project.version}</finalName>
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -33,12 +37,16 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M7</version>
+        <version>3.5.2</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.5.2</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>3.2.0</version>
+        <version>3.6.0</version>
         <dependencies>
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
@@ -65,7 +73,29 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.19.0</version>
+        <version>3.26.0</version>
+        <dependencies>
+          <dependency>
+            <groupId>net.sourceforge.pmd</groupId>
+            <artifactId>pmd-core</artifactId>
+            <version>${pmdVersion}</version>
+          </dependency>
+          <dependency>
+            <groupId>net.sourceforge.pmd</groupId>
+            <artifactId>pmd-java</artifactId>
+            <version>${pmdVersion}</version>
+          </dependency>
+          <dependency>
+            <groupId>net.sourceforge.pmd</groupId>
+            <artifactId>pmd-javascript</artifactId>
+            <version>${pmdVersion}</version>
+          </dependency>
+          <dependency>
+            <groupId>net.sourceforge.pmd</groupId>
+            <artifactId>pmd-jsp</artifactId>
+            <version>${pmdVersion}</version>
+          </dependency>
+        </dependencies>
         <configuration>
           <rulesets>
             <ruleset>./pmd.xml</ruleset>
@@ -84,6 +114,7 @@
     </plugins>
   </build>
   <dependencies>
+
 <!--
     <dependency>
       <groupId>de.smits_net.games</groupId>
@@ -94,7 +125,7 @@
 -->
     <dependency>
 	    <groupId>com.github.thomsmits</groupId>
-	    <artifactId> game-framework</artifactId>
+	    <artifactId>game-framework</artifactId>
 	    <version>v1.0</version>
 	  </dependency>
     <dependency>
@@ -116,11 +147,6 @@
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-suite</artifactId>
       <version>${junit.platform.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.vintage</groupId>
-      <artifactId>junit-vintage-engine</artifactId>
-      <version>4.12.0-M4</version>
     </dependency>
     <dependency>
       <groupId>org.jfree</groupId>

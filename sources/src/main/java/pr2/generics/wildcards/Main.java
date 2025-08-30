@@ -18,6 +18,7 @@ public final class Main {
      * @param args Kommandozeilenargumente.
      */
     public static void main(String[] args) {
+        @SuppressWarnings("PMD.LooseCoupling")
         SimpleList<String> l1 = new SimpleList<>();
         l1.add("Dies");
         l1.add("ist");
@@ -25,6 +26,7 @@ public final class Main {
         l1.add("Test");
         l1.add(".");
 
+        @SuppressWarnings("PMD.LooseCoupling")
         SimpleList<Integer> l2 = new SimpleList<>();
         l2.add(1);
         l2.add(2);

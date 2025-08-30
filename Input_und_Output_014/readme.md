@@ -1,6 +1,6 @@
 # Rot13-Verschlüsselung
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Funktionsweise und Einsatz von Filtern.

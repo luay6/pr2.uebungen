@@ -1,6 +1,6 @@
 # Daten mit einem `OutputStream` schreiben
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen `OutputStream` verwenden, um Daten zu schreiben.
@@ -11,7 +11,7 @@ Gehen Sie in das Paket [pr2.io.datei_schreiben](../sources/src/main/java/pr2/io/
 
 In dieser Aufgabe sollen Sie eine Reihe von Bytes in eine Datei schreiben. Ein JUnit-Test wird überprüfen, ob Sie dies richtig getan haben.
 
-Öffnen Sie einen passenden `OutputStream`, um in die Datei `output/daten.dat` zu schreiben (verwenden Sie die Konstante `FILE` für den Dateinamen). Schreiben Sie nun die Byte-Folge
+Öffnen Sie einen passenden `OutputStream`, um in die, die Ihnen als Kommandozeilenargument übergeben wird, zu schreiben. Schreiben Sie nun die Byte-Folge
 
 ```console
 0xca 0xff 0xfe 0xba 0xbe 0x0 0xde 0xad 0xbe 0xef

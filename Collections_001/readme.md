@@ -1,6 +1,6 @@
 # Iterator schreiben
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Für eine gegebene Klasse einen Iterator schreiben.

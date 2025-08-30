@@ -1,6 +1,6 @@
 # Statische Methoden und Attribute
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Eine Klasse mit statischen Attributen und Methoden entwickeln und die Unterschiede zu normalen Methoden und Attributen verstehen.

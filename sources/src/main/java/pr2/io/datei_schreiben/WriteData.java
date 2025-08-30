@@ -10,18 +10,14 @@ import java.io.OutputStream;
 public class WriteData {
 
     /**
-     * Datei.
-     */
-    public static final String FILE = "pr2/io/datei_schreiben/daten.dat";
-
-    /**
      * Hauptmethode.
      *
      * @param args Kommandozeilenargumente.
      */
     public static void main(String[] args) {
 
-        // TODO: OutputStream für Datei `File` öffnen
+        String file = args[0];
+        // TODO: OutputStream für Datei `file` öffnen
         // TODO: 0xca 0xff 0xfe 0xba 0xbe 0x0 0xde 0xad 0xbe 0xef schreiben
         // TODO: OutputStream schließen
     }

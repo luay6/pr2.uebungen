@@ -1,6 +1,6 @@
 # Ausnahmen testen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Bei einer gegebenen Klasse Testfälle mit JUnit schreiben, die auf das Werfen von Ausnahmen testen.

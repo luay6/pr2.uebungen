@@ -1,6 +1,6 @@
 # `Map<T>` verwenden
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Das Interface `Map<T>` und seine Implementierungen verwenden, um Daten effizient zu verarbeiten.

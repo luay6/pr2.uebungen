@@ -1,6 +1,6 @@
 # Enumeration schreiben
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Eine einfache Enumeration (ohne abstrakte Methoden) erstellen und in einem kleinen Programm einsetzen.

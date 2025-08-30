@@ -1,6 +1,6 @@
 # Wörter zählen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Daten in Streams mit `reduce` aggregieren.

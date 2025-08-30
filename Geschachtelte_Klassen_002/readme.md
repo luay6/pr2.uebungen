@@ -1,6 +1,6 @@
 # Innere Klasse Beobachter
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Zugriff von inneren Klassen auf die umgebende Klasse.

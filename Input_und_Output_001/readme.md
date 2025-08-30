@@ -1,6 +1,6 @@
 # `BufferedReader` zum zeilenweisen Lesen einsetzen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Daten Zeilenweise mit einem `BufferedReader` verwenden und dabei das Decorator Pattern einsetzen.

@@ -1,6 +1,6 @@
 # Ausnahmen mit `try` und `catch` behandeln.
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Vorhandene Ausnahmen mit `try` und `catch` abfangen und behandeln.

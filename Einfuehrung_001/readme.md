@@ -1,6 +1,6 @@
 # Java-Coding-Standard anwenden
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Java-Code korrekt entsprechend dem [Coding-Standard von Oracle](http://www.oracle.com/technetwork/java/codeconventions-150003.pdf) formatieren.

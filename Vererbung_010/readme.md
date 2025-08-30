@@ -1,6 +1,6 @@
 # Methoden überschreiben
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Bei Vererbung das Überschreiben von Methoden einsetzen.

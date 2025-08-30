@@ -1,6 +1,6 @@
 # Filesystem-Abstraktion mit `File`
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Die Klasse `Path` einsetzen, um plattformunabhängig Operationen auf dem Dateisystem durchzuführen.

@@ -1,6 +1,6 @@
 # `FilterReader`
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen eigenen Filter in Form eines `FilterReaders` programmieren und hiermit in den Datenstrom eingreifen.

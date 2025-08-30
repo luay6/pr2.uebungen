@@ -1,6 +1,6 @@
 # Interfaces anwenden und entwerfen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Ein vorhandenes Interface implementieren und ein eigenes Interface programmieren. Klassen schreiben, die mehrere Interfaces implementieren. Die Kollision von gleichnamigen Interface-Methoden und deren Konsequenzen verstehen.

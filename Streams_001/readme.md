@@ -1,6 +1,6 @@
 # Kleinbuchstaben in einem String zählen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Streams verwenden.

@@ -1,6 +1,6 @@
 # Interface Stack entwerfen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Ein Interface entwerfen und dieses dann implementieren.

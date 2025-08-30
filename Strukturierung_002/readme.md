@@ -1,6 +1,6 @@
 # Vorhandene Bibliotheken als JAR einbinden
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Eine vorhandene Bibliothek in einem Projekt verwenden und hierzu ein JAR einbinden.

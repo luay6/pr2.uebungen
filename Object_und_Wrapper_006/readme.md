@@ -1,6 +1,6 @@
 # Optimierung bei Integer
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Wrapper-Klassen und deren Optimierungen verstehen.

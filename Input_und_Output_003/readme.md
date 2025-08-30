@@ -1,6 +1,6 @@
 # DataOutputStream durch Serialisierung ersetzen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Daten mit einem `ObjectOutputStreams` serialisieren.

@@ -1,6 +1,6 @@
 # Map und Reduce auf Streams
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Die Daten in einem Stream durch Map- und Reduce verdichten.

@@ -1,6 +1,6 @@
 # wait und notify benutzen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Thread-Koordination über Condition-Variablen.

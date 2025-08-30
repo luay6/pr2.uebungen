@@ -1,6 +1,6 @@
 # Generische Klasse Pair erweitern: NumberPair
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Von einem generischen Typ erben.

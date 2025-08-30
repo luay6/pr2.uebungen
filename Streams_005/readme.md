@@ -1,6 +1,6 @@
 # Streams mit interner Iteration
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen Stream mit einer internen Iteration verwenden. Die Iteration sowohl mit einem Lambda, als auch mit einer Methodenreferenz durchführen.

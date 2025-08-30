@@ -1,6 +1,6 @@
 # Daten mit einem `InputStream` lesen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen `InputStream` benutzen, um Daten aus einer Datei zu lesen.

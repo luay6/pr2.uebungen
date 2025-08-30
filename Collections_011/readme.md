@@ -1,6 +1,6 @@
 # Wörterbuchprogramm
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Interface `Map` und seine Implementierungen einsetzen.
@@ -11,7 +11,7 @@ Gehen Sie in das Paket [pr2.collections.woerterbuch](../sources/src/main/java/pr
 
 Schreiben Sie ein einfaches Wörterbuchprogramm, dem man auf der Kommandozeile eine beliebige Anzahl von Wörtern übergeben kann und das dann die entsprechende Übersetzung ausgibt. Die Wörter des Wörterbuchs sollen fest im Programm einprogrammiert sein. Es reicht, wenn Sie einige wenige Wörter vorsehen.
 
-Berücksichtigen Sie bitte den Fall, dass der Benutzer kein Wort auf der Kommandozeile angibt bzw. dass ein Wort nicht im Wörterbuch vorhanden ist.
+Berücksichtigen Sie bitte den Fall, dass der/die Benutzer:in kein Wort auf der Kommandozeile angibt bzw. dass ein Wort nicht im Wörterbuch vorhanden ist.
 
 ```console
 > java Woerterbuch

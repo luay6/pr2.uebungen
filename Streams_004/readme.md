@@ -1,6 +1,6 @@
 # Liste filtern
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Daten in Streams filtern.

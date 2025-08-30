@@ -1,6 +1,6 @@
 # Fileattribute lesen
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Methoden der Klassen `Path` und `Files` nutzen und verstehen.

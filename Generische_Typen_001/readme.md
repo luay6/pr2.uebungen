@@ -1,6 +1,6 @@
 # Einen generischen Typ schreiben
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen vorhandenen Typ so umgestalten, dass er als generischer Typ verwendet werden kann.

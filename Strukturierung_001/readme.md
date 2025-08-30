@@ -1,6 +1,6 @@
 # Information-Hiding einer Klasse verbessern
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Bei einer vorhandenen Klasse Information Hiding verbessern und Seiteneffekte reduzieren.

@@ -1,6 +1,6 @@
 # Abstrakte Klasse
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Abstrakte Klasse verwenden.

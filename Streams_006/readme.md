@@ -1,6 +1,6 @@
 # Map und Filter auf Streams
 ## Lernziel
- [Musterlösung](solution/)
+
 
 
 Einen Stream durch Map- und Filter-Operationen analysieren und gewünschte Daten extrahieren.
