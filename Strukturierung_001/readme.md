@@ -7,7 +7,7 @@ Bei einer vorhandenen Klasse Information Hiding verbessern und Seiteneffekte red
 
 ## Aufgabe
 
-Im Paket [pr2.strukturierung.information_hiding](../sources/src/main/java/pr2/strukturierung/information_hiding/) finden Sie eine Klasse namens `Rechner`, die eine sehr einfachen Taschenrechner repräsentiert. Außerdem finden Sie einen passenden JUnit-Test `RechnerTest`, der die Funktionsweise des Taschenrechners demonstriert ([RechnerTest](../sources/src/main/java/pr2/strukturierung/information_hiding/test/).
+Im Paket [pr2.strukturierung.information_hiding](../sources/src/main/java/pr2/strukturierung/information_hiding/) finden Sie eine Klasse namens `Rechner`, die eine sehr einfachen Taschenrechner repräsentiert. Außerdem finden Sie einen passenden JUnit-Test `RechnerTest`, der die Funktionsweise des Taschenrechners demonstriert -- [RechnerTest](../sources/src/main/java/pr2/strukturierung/information_hiding/test/).
 
 Führen Sie den JUnit-Test aus und vergewissern Sie sich, dass der Taschenrechner korrekt funktioniert.
 

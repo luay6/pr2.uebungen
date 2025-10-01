@@ -7,7 +7,7 @@ Einen JUnit-Test für eine gegebene Klasse schreiben.
 
 ## Aufgabe
 
-Gehen Sie in das Paket [pr2.intro.junit_faculty](../sources/src/main/java/pr2/intro/junit_faculty/).
+Gehen Sie in das Paket [pr2.intro.junit_factorial](../sources/src/main/java/pr2/intro/junit_faculty/).
 
 Schreiben Sie bitte einen JUnit-Test für folgende Klasse `Fakultaet`, der die Funktionalität der Methode `fact` testet. Denken Sie insbesondere daran, die Randfälle zu testen.
 

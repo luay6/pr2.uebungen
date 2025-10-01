@@ -1,4 +1,4 @@
-package pr2.intro.junit_faculty;
+package pr2.intro.junit_factorial;
 
 public class Fakultaet {
 
