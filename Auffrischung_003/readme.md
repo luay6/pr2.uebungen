@@ -1,6 +1,6 @@
 # Passwortbewertung
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Einfache String-Verarbeitung.

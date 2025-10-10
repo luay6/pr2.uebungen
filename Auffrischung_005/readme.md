@@ -1,6 +1,6 @@
 # Maximum in einem Array suchen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Über Arrays iterieren.

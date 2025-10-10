@@ -1,6 +1,6 @@
 # String in Großbuchstaben umwandeln
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
   * Daten von der Kommandozeile lesen.

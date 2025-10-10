@@ -1,6 +1,6 @@
 # Klasse mit JUnit testen
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Einen JUnit-Test für eine gegebene Klasse schreiben.

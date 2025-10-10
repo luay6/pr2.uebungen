@@ -1,6 +1,6 @@
 # JavaDoc schreiben
 ## Lernziel
-
+ [Musterlösung](solution/)
 
 
 Eine vorhandene Klasse mit korrekten JavaDoc-Kommentaren versehen.
