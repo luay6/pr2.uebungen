@@ -11,6 +11,14 @@ import java.util.Date;
 public class DateReader {
     public static void main(String[] args) {
 
-        // TODO: Implementieren
+       try (DataInputStream dis = new DataInputStream(new FileInputStream("temp/test.data"))) {
+           Date date = new Date(dis.readLong());
+           SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyy");
+           System.out.println(sdf.format(date));
+       } catch (FileNotFoundException e) {
+        System.out.println("file not found");
+       } catch (IOException e1) {
+        System.out.println("IOException");
+    }
     }
 }

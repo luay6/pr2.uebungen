@@ -3,7 +3,7 @@ package pr2.auffrischung.printf;
 public class DoubleFormatter {
 
     public static void printDouble(double d) {
-        // TODO: Wert ausgeben
+        System.out.printf("%.3f\n", d);
     }
 
     public static void main(String[] args) {

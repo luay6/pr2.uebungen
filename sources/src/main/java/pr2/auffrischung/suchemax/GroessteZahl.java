@@ -3,9 +3,13 @@ package pr2.auffrischung.suchemax;
 public class GroessteZahl {
 
     public int sucheMax(int[] zahlen) {
-        int max = 0;
+        int max = zahlen[0];
 
-        // TODO: Methode implementieren
+        for(int i : zahlen) {
+            if(i > max) {
+                max = i;
+            }
+        }
 
         return max;
     }

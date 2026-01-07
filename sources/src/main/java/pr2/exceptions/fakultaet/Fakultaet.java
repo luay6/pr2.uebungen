@@ -1,8 +1,11 @@
 package pr2.exceptions.fakultaet;
 
-public class Fakultaet {
+public class Fakultaet  {
 
-    public int fact(int n) {
+    public int fact(int n) throws FakultaetException{
+        if(0 < n && n> 20) {
+            throw new FakultaetException("falsche Eingabe");
+        }
         return factIntern(n);
     }
 

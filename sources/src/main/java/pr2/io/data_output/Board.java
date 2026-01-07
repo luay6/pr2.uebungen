@@ -5,7 +5,7 @@ import java.io.DataOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+temp
 /**
  * Ein Dame-Brett.
  */
@@ -29,6 +29,7 @@ public class Board {
 
 
         // TODO: Daten aus Datei lesen
+        
         // TODO: Zuerst überprüfen, ob Datei mit "Schachbrett" anfängt, wenn nein, Ausnahme werfen
         // TODO: Positionen und Farbe der Figuren einlesen
 

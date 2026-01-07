@@ -1,6 +1,8 @@
 package pr2.io.file;
 
 import java.io.IOException;
+import java.nio.file.FileSystem;
+import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
@@ -35,14 +37,30 @@ public class FilesystemWalker {
     /**
      * Rekursive Methode, um den Baum zu durchlaufen.
      *
-     * @param startDir Verzeichnis, bei dem gestartet werden
-     *                 soll.
+     * @param startDir Verzeichnis, bei dem gestartet werden soll.
      * @return die Größe des Verzeichnisses.
      */
     private static long walk(Path startDir) {
-
-        // TODO: Methode implementieren
-        return 0;
+        Long total = 0l;
+        if (!Files.isDirectory(startDir)) {
+            try {
+                System.out.println(
+                        startDir + ":\n" + niceSize(Files.size(startDir)));
+                total += Files.size(startDir);
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        } else {
+            String[] content = startDir.toFile().list();
+            if (content != null) {
+                for (String name : content) {
+                    Path child = startDir.resolve(name);
+                    total += walk(child);
+                }
+            }
+        }
+        return total;
     }
 
     /**
@@ -55,11 +73,9 @@ public class FilesystemWalker {
 
         if (size > 1000_000L) {
             return String.format("%.1f MByte", size / 1024.0 / 1024.0);
-        }
-        else if (size > 1000L) {
+        } else if (size > 1000L) {
             return String.format("%.1f kByte", size / 1024.0);
-        }
-        else {
+        } else {
             return String.format("%d Byte", size);
         }
     }

@@ -22,13 +22,18 @@ public class Main {
 
         int[] gerade = null;
 
-        // TODO: Gerade Zahlen filtern
+        gerade = s.filter(new Predicate(){
+            @Override
+            public boolean accept(Object obj) {
+                return (Integer)obj % 2 ==0;
+            }
+        }, ZAHLEN);
 
         System.out.println(Arrays.toString(gerade));
 
         int[] ungerade = null;
 
-        // TODO: Ungerade Zahlen filtern
+        ungerade = s.filter(t -> t % 2 !=0, ZAHLEN);
 
         System.out.println(Arrays.toString(ungerade));
 

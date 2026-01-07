@@ -3,7 +3,7 @@ package pr2.interfaces.abstrakte_klassen_e;
 /**
  * Ein Dreieck.
  */
-public class Dreieck {
+public class Dreieck extends Figur{
 
     /** Grundseite des Dreiecks. */
     private double grundseite;
@@ -18,16 +18,17 @@ public class Dreieck {
      * @param hoehe Höhe.
      */
     public Dreieck(double grundseite, double hoehe) {
+        super(grundseite * hoehe / 2);
         this.grundseite = grundseite;
         this.hoehe = hoehe;
     }
     
-    /**
-     * Berechnet die Fläche.
-     * 
-     * @return die Fläche.
-     */
-    public double flaeche() {
-        return grundseite * hoehe / 2;
-    }    
+//    /**
+//     * Berechnet die Fläche.
+//     * 
+//     * @return die Fläche.
+//     */
+//    public double flaeche() {
+//        return grundseite * hoehe / 2;
+//    }    
 }

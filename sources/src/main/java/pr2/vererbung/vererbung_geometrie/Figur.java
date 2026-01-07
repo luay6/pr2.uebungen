@@ -10,5 +10,14 @@ public class Figur {
      */
     private double flaeche;
 
-    // TODO: Konstruktoren und Methoden schreiben
+    protected Figur() {
+        flaeche = 0.0;
+    }
+    protected Figur(double flaeche) {
+        this.flaeche = flaeche;
+    }
+    
+    protected double getFlaeche() {
+        return flaeche;
+    }
 }

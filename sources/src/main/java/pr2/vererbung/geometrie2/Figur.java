@@ -2,7 +2,7 @@ package pr2.vererbung.geometrie2;
 
 public class Figur {
 
-    protected int flaeche;
+    private int flaeche;
 
     protected Figur() {
         /* nichts zu tun */

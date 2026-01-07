@@ -5,7 +5,7 @@ package pr2.strukturierung.information_hiding;
  */
 public class Rechner {
     /** Ergebnis des Taschenrechners. */
-    public double wert;
+    private double wert;
 
     /** Speicher des Taschenrechners. */
     public double speicher;
@@ -19,6 +19,7 @@ public class Rechner {
      */
     public void addiere(double a, double b) {
         wert = a + b;
+        speichern();
     }
 
     /**
@@ -30,6 +31,7 @@ public class Rechner {
      */
     public void subtrahiere(double a, double b) {
         wert = a - b;
+        speichern();
     }
 
     /**
@@ -41,11 +43,12 @@ public class Rechner {
      */
     public void multipliziere(double a, double b) {
         wert = a * b;
+        speichern();
     }
     /**
      * Speichert den aktuellen Wert in der Variable {@speicher}.
      */
-    public void speichern() {
+    private void speichern() {
         speicher = wert;
     }
 }

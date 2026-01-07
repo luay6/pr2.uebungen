@@ -32,8 +32,10 @@ public class Fuse {
      * @throws IllegalCurrentException Ausnahme bei einem
      *                                 ungültigen Spannungswert.
      */
-    public Fuse(int tripCurrent) {
-        // TODO: IllegalCurrentException werfen, wenn der Strom ungültig ist
+    public Fuse(int tripCurrent) throws IllegalCurrentException{
+        if(tripCurrent != A16 && tripCurrent != A25 && tripCurrent != A32) {
+            throw new IllegalCurrentException(tripCurrent);
+        }
         this.tripCurrent = tripCurrent;
     }
 
@@ -43,7 +45,9 @@ public class Fuse {
      * @param current Strom, der durch die Sicherung fließt.
      * @throws FuseTrippedException wird geworfen, wenn der Srom zu groß wird.
      */
-    public void use(int current) {
-        // TODO: FuseTrippedException werfen, wenn der Strom zu groß ist
+    public void use(int current) throws FuseTrippedException {
+        if(this.tripCurrent < current) {
+            throw new FuseTrippedException(tripCurrent, current);
+        }
     }
 }

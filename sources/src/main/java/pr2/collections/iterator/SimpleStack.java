@@ -7,8 +7,7 @@ import java.util.Iterator;
  *
  * @param <T> Typ, der gespeichert werden soll.
  */
-public class SimpleStack<T> {
-// TODO: implements Iterable<T> hinzufügen
+public class SimpleStack<T> implements Iterable<T>{
 
     // Variablen sind nicht private wegen Zugriff durch den Iterator
     T[] stack;
@@ -53,5 +52,30 @@ public class SimpleStack<T> {
         return stack[pos - 1];
     }
 
-    // TODO: Interface Iterable<T> implementieren
+    @Override
+    public Iterator<T> iterator() {
+        return new MyIterator();
+    }
+    class MyIterator implements Iterator<T>{
+        
+        private int cursor = pos;
+        @Override
+        public boolean hasNext() {
+            
+            return cursor > 0;
+        }
+
+        @Override
+        public T next() {
+            if(!hasNext()) {
+                throw new java.util.NoSuchElementException();
+            }
+                return stack[--cursor];                
+            
+        }
+        
+    }
+    
+
+   
 }

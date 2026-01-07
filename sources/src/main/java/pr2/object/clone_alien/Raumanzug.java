@@ -3,7 +3,12 @@ package pr2.object.clone_alien;
 /**
  * Ein Raumanzug.
  */
-public class Raumanzug {
+public class Raumanzug implements Cloneable{
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 
     /**
      * Sauerstoffvorrat, der noch im Raumanzug ist.

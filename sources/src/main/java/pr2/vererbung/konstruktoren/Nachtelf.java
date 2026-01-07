@@ -3,7 +3,7 @@ package pr2.vererbung.konstruktoren;
 /**
  * Nachtelf aus der Allianz.
  */
-public class Nachtelf {
+public class Nachtelf extends Wesen{
 
     /**
      * Standardmäßige Stärke der Fähigkeit Naturwiderstand.
@@ -15,7 +15,14 @@ public class Nachtelf {
      */
     private int naturwiderstand;
 
-    // TODO: Konstruktoren implementieren
+    public Nachtelf(String name) {
+        super(name);
+        this.naturwiderstand = STANDARD_NATURWIDERSTAND;
+    }
+    public Nachtelf(String name, int naturwiderstand) {
+        super(name);
+        this.naturwiderstand = naturwiderstand;
+    }
 
     /**
      * Stärke des Naturwiderstandes.

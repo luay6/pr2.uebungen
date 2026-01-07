@@ -1,5 +1,7 @@
 package pr2.vererbung.polymorphie;
 
+import java.util.Arrays;
+
 /**
  * Simulationsklasse.
  */
@@ -19,23 +21,18 @@ public final class ZooSimulation {
      */
     public static void main(String[] args) {
         Futterstelle futterstelle = new Futterstelle();
+        ZooTier[] tiere = {
+        new Affe("Charlie"),
+        new Gorilla("Buck"),
+        new Giraffe("Debbie"),
+        };
 
-        Affe charlie = new Affe("Charlie");
-        Gorilla buck = new Gorilla("Buck");
-        Giraffe debbie = new Giraffe("Debbie");
+        for(ZooTier tier : tiere) {
+            System.out.println(tier);
+            System.out.println("Fütterung...");
+            futterstelle.gibFutter(tier);
+            System.out.println(tier);
+        }
 
-        System.out.println(charlie);
-        System.out.println(buck);
-        System.out.println(debbie);
-
-        System.out.println("Fütterung...");
-
-        futterstelle.gibFutter(charlie);
-        futterstelle.gibFutter(buck);
-        futterstelle.gibFutter(debbie);
-
-        System.out.println(charlie);
-        System.out.println(buck);
-        System.out.println(debbie);
     }
 }

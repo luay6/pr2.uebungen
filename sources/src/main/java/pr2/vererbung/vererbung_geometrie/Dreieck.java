@@ -3,7 +3,9 @@ package pr2.vererbung.vererbung_geometrie;
 /**
  * Ein Dreieck.
  */
-public class Dreieck {
+public class Dreieck extends Figur{
 
-    // TODO: Konstruktor
+    public Dreieck(double grundseite, double hoehe) {
+        super(0.5 * grundseite * hoehe);
+    }
 }

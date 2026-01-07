@@ -1,5 +1,7 @@
 package pr2.generics.wildcards;
 
+import java.util.List;
+
 /**
  * Klasse zum Ausdrucken von Listen.
  */
@@ -10,7 +12,11 @@ public class ListHelper {
      *
      * @param liste Die zu druckende Liste.
      */
-    // TODO: Methode schreiben
+    public static void printList(List<?> list) {
+        for(Object t : list){
+            System.out.println(t);
+        }
+    }
 
     /**
      * Summiert die Elemente der Liste. Deswegen können nur Listen übergeben
@@ -19,5 +25,11 @@ public class ListHelper {
      * @param liste Die Liste, deren Elemente summiert werden sollen.
      * @return das Ergebnis
      */
-    // TODO: Methode schreiben
+    public static Number sumList(List<? extends Number> list) {
+        double result = 0;
+        for(Number n : list) {
+            result += n.doubleValue();
+        }
+        return result;
+    }
 }

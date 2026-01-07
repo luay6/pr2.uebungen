@@ -12,7 +12,13 @@ public class ArraySucher {
     public boolean suche(int[][] array) {
         boolean found = false;
 
-        // TODO: Methodenrumpf schreiben
+        for(int[] i : array) {
+            for(int j : i) {
+                if (j != 0) {
+                    found = true;
+                }
+            }
+        }
 
         return found;
     }

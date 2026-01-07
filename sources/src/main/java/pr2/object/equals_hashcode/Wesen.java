@@ -52,6 +52,7 @@ public class Wesen {
         if (getClass() != obj.getClass()) {
             return false;
         }
+        //hier der reelle Vergleich
         Wesen other = (Wesen) obj;
         if (name == null) {
             if (other.name != null) {

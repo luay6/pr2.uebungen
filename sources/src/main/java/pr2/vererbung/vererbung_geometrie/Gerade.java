@@ -3,12 +3,17 @@ package pr2.vererbung.vererbung_geometrie;
 /**
  * Eine Gerade.
  */
-public class Gerade {
+public class Gerade extends Figur{
 
     /**
      * Länge der Geraden.
      */
     private double laenge;
 
-    // TODO: Konstruktor und Methoden
+    public Gerade(double laenge) {
+        this.laenge = laenge;
+    }
+    public double getLaenge() {
+        return laenge;
+    }
 }

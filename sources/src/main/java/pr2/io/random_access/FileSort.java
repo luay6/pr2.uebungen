@@ -16,6 +16,20 @@ public class FileSort {
      */
     public static void sortFile(String filename) throws IOException {
 
-        // TODO: Bubblesort implementieren
+        RandomAccessFile file = new RandomAccessFile(filename, "rw");
+        
+            boolean swapped;
+            do {
+                swapped = false;
+                for (int i = 0; i < file.length() - 1; i++) {
+                    if (fil > file.seek( i + 1)) {
+                        // Elemente vertauschen
+                        swap(file, i, i + 1);
+                        swapped = true;
+                    }
+                }
+            } while (swapped);
+        
+
     }
 }

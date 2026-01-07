@@ -8,22 +8,23 @@ package pr2.generics.einfach;
 /**
  * Eine einfache, verkettete Liste.
  */
-public class Liste {
+public class Liste<T> {
 
     /** Referenz auf den ersten Knoten. */
-    private ListeNode first;
+    private ListeNode<T> first;
 
     /** Referenz auf den aktuellen Knoten. */
-    private ListeNode current;
+    private ListeNode <T>current;
 
     /**
      * Fügt ein neues Element an das Ende der Liste an.
      *
      * @param data das Element
      */
-    public void add(Object data) {
+    @SuppressWarnings({ "unchecked" })
+    public void add(T data) {
 
-        ListeNode nextNode = new ListeNode(data);
+        ListeNode<T> nextNode = new ListeNode<T>(data);
 
         if (current == null) {
             // Liste komplett leer
@@ -44,7 +45,7 @@ public class Liste {
      */
     public Object get(int index) {
         int count = 0;
-        ListeNode node = first;
+        ListeNode<T> node = first;
 
         while ((node != null) && (count < index)) {
             node = node.next;
@@ -75,7 +76,7 @@ public class Liste {
      */
     public int size() {
         int count = 0;
-        ListeNode node = first;
+        ListeNode<T> node = first;
 
         while (node != null) {
             node = node.next;

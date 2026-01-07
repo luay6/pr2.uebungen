@@ -1,5 +1,7 @@
 package pr2.generics.super_extends;
 
+import java.util.List;
+
 /**
  * Eine einfache, verkettete Liste.
  *
@@ -91,12 +93,27 @@ public class Liste<T> {
      *
      * @param other die andere Liste.
      */
-    // TODO: copyInto implementieren
+    public void copyInto(Liste<? super T> other) {
+        for(int i = 0; i < this.size(); i++) {
+            if(this.get(i) == null){
+                return;
+            }
+            other.add(this.get(i));
+        }
+    }
 
     /**
      * Füllt diese Liste mit dem Inhalt der übergebenen Liste.
      *
      * @param other die andere Liste.
      */
-    // TODO: fillFrom implementieren
+    public void fillFrom(Liste<? extends T> other) {
+        for(int i = 0; i < other.size(); i++) {
+            if(other.get(i) ==  null) {
+                return;
+            }
+            this.add(other.get(i));
+        }
+        
+    }
 }

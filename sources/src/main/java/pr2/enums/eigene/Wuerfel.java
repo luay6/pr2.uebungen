@@ -20,7 +20,7 @@ public class Wuerfel {
     public static final int D10 = 10;
 
     /** 12-seitiger Würfel. */
-    public static final int D12 = 13;
+    public static final int D12 = 12;
 
     /**
      * Zufallszahlengenerator.
@@ -37,9 +37,10 @@ public class Wuerfel {
      *
      * @param typ Anzahl der Seiten des Würfels.
      */
-    public Wuerfel(int numSides) {
-        this.numSides = numSides;
+    public Wuerfel(WuerfelTyp w) {
+        this.numSides = w.seitenAnzahl;
     }
+
 
     /**
      * Den Würfel werfen.

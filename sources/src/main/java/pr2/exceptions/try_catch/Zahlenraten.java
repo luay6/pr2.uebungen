@@ -27,8 +27,7 @@ public final class Zahlenraten {
      *
      * @param args Kommandozeilenargumente
      */
-    public static void main(String[] args)
-            throws NumberFormatException, IOException {
+    public static void main(String[] args){
 
         // zu ratende Zahl bestimmen
         int zahl = new Random().nextInt(100) + 1;
@@ -37,6 +36,8 @@ public final class Zahlenraten {
 
         while (true) {
             System.out.print("Bitte geben Sie eine Zahl ein: ");
+            try {
+                
             int geraten  = Integer.parseInt(readNumber());
             versuche++;
 
@@ -49,6 +50,13 @@ public final class Zahlenraten {
             else {
                 System.out.printf("Richtig in %d Versuchen", versuche);
                 break;
+            }
+            }
+            catch(NumberFormatException e) {
+                System.out.println("number format Exception");
+            } catch (IOException e) {
+                System.out.println("falsche Zahl");
+                e.printStackTrace();
             }
         }
     }

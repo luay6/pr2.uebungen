@@ -20,6 +20,10 @@ package pr2.exceptions.ausnahmen_testen;
  * {@code text.equals(decrypt(key, encrypt(key, text)) == true}.
  */
 public class CrypterCaesar {
+    public static void main(String[] args) throws IllegalMessageException, IllegalKeyException {
+        CrypterCaesar cc = new CrypterCaesar();
+        cc.encrypt("hello my friend", "this is a message");
+    }
 
     /**
      * Gültige Zeichen für Schlüssel und Text.

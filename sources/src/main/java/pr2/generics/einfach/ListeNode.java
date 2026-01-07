@@ -3,10 +3,10 @@ package pr2.generics.einfach;
 /**
  * Interne Repräsentation der Knoten in der Liste.
  */
-class ListeNode {
+class ListeNode<T> {
 
     /** Daten. */
-    Object data;
+    T data;
 
     /** Referenz auf den nächsten Knoten. */
     ListeNode next;
@@ -16,7 +16,7 @@ class ListeNode {
      *
      * @param data daten, die gespeichert werden
      */
-    ListeNode(Object data) {
+    ListeNode(T data) {
         this.data = data;
     }
 }

@@ -1,5 +1,7 @@
 package pr2.intro.javadoc;
-
+/**
+ * Eine Klasse, die die Währung rechnet.
+ */
 public class Waehrung {
 
     private static final long TEILER = 10000;
@@ -9,13 +11,23 @@ public class Waehrung {
     private final String name;
 
     private final String kuerzel;
-
+/**
+ * Konstruktur
+ * @param name, Name die Währung
+ * @param kuerzel, Kurzname
+ * @param kurs
+ */
     public Waehrung(String name, String kuerzel, double kurs) {
         this.kurs = (int) (kurs * TEILER);
         this.name = name;
         this.kuerzel = kuerzel;
     }
-
+/**
+ * Methode umrechnen, rechnet einen Betrag um
+ * @param betrag
+ * @param toWaehrung
+ * @return
+ */
     public long umrechnen(long betrag, Waehrung toWaehrung) {
         return betrag * kurs / toWaehrung.kurs;
     }

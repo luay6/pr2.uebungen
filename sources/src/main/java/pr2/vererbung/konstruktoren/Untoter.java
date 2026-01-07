@@ -3,7 +3,7 @@ package pr2.vererbung.konstruktoren;
 /**
  * Untoter aus der Horde.
  */
-public class Untoter {
+public class Untoter extends Wesen{
 
     /**
      * Standardmäßige Stärke der Fähigkeit zur Unterwasseratmung.
@@ -15,7 +15,14 @@ public class Untoter {
      */
     private int unterwasseratmung;
 
-    // TODO: Konstruktoren implementieren
+    public Untoter(String name) {
+        super(name);
+        this.unterwasseratmung = STANDARD_UNTERWASSERATMUNG;
+    }
+    public Untoter(String name, int unterwasseratmung) {
+        super(name);
+        this.unterwasseratmung = unterwasseratmung;
+    }
 
     /**
      * Fähigkeit zur Unterwasseratmnung.

@@ -4,7 +4,9 @@ public class Figur {
 
     private int flaeche;
 
-
+    protected Figur() {
+        this.flaeche = 0;
+    }
     protected Figur(int flaeche) {
         this.flaeche = flaeche;
     }

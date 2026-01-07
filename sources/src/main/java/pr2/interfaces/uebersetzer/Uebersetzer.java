@@ -11,3 +11,4 @@ public interface Uebersetzer {
      */
     public String uebersetze(String string);
 }
+    

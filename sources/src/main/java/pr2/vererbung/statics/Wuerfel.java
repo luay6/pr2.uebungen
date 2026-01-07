@@ -8,19 +8,21 @@ import java.util.Random;
 public class Wuerfel {
 
     /** Häufigkeit der Werte. */
-    private int[] haeufigkeit = new int[6];
+    private static int[] haeufigkeit = new int[6];
 
     /** Zufallsgenerator. */
-    private Random random = new Random();
+    private static Random random = new Random();
+    private static int wurfe = 0;
 
     /**
      * Bestimmt den nächsten Wurf.
      *
      * @return der Wurf.
      */
-    public int wuerfele() {
+    public static int wuerfele() {
         int wert = random.nextInt(6);
         haeufigkeit[wert]++;
+        wurfe++;
         return wert + 1;
     }
 
@@ -29,14 +31,14 @@ public class Wuerfel {
      *
      * @return die Statistik mit der Häufigkeit.
      */
-    public String statistik() {
+    public static String statistik() {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < haeufigkeit.length; i++) {
             result.append(i + 1)
                   .append(": ")
-                  .append(haeufigkeit[i])
-                  .append("\n");
+                  .append(haeufigkeit[i]*100/wurfe)
+                  .append("%\n");
         }
 
         return result.toString();

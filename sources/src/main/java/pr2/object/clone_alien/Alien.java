@@ -3,7 +3,7 @@ package pr2.object.clone_alien;
 /**
  * Ein Alien.
  */
-public class Alien {
+public class Alien implements Cloneable{
 
     /**
      * Name des Aliens.
@@ -86,6 +86,13 @@ public class Alien {
         else {
             return raumanzug.equals(other.raumanzug);
         }
+    }
+    
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        Alien kopie = (Alien)super.clone();
+        kopie.raumanzug = (Raumanzug) this.raumanzug.clone();
+        return kopie;
     }
 
 }

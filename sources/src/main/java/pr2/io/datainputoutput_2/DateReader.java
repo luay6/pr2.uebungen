@@ -12,6 +12,20 @@ public class DateReader {
 
     public static void main(String[] args) {
 
-        // TODO: Implementieren
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyy");
+        try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream("temp/test.ser"))){
+            Date date = (Date) ois.readObject();
+            System.out.println(sdf.format(date));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
     }
 }

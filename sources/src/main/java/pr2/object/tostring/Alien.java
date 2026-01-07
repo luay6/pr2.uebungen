@@ -44,4 +44,9 @@ public class Alien implements Cloneable {
         return raumanzug;
     }
 
+    @Override
+    public String toString() {
+        return"Ich bin ein Alien und heiße " + name + ". Ich trage einen Raumanzug von " + raumanzug + " (Füllstand " + (int)(raumanzug.getSauerstoffVorrat() * 100) + "%).";
+    }
+
 }

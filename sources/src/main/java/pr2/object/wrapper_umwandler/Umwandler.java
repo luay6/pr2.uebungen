@@ -19,7 +19,12 @@ public final class Umwandler {
      * @return String mit mehreren Formaten.
      */
     public static String toString(int i) {
-        return null;
+        String decimal = Integer.toString(i);
+        String hex  = Integer.toHexString(i);
+        String oktal = Integer.toOctalString(i);
+        String binary = Integer.toBinaryString(i);
+        return "Dezimal: " + decimal + "\nHex: " + hex
+                + "\nOktal: " + oktal + "\nBinär: " + binary;
     }
 
     /**
@@ -29,7 +34,7 @@ public final class Umwandler {
      * @return Umgewandelte Zahl
      */
     public static int fromString(String s) {
-        return 0;
+        return Integer.parseInt(s);
     }
 
     /**
@@ -41,5 +46,8 @@ public final class Umwandler {
         String s = "17871";
         int i = fromString(s);
         System.out.println(toString(i));
+        System.out.println(Integer.valueOf("5"));
+        Byte four = -1;
+        System.out.println(Byte.toUnsignedInt(four));
     }
 }
