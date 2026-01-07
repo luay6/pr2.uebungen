@@ -8,6 +8,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * Zählen von Worthäufigkeiten.
@@ -26,7 +28,7 @@ public class WordCount {
     private static List<WordFrequency> countWords(String filename)
             throws IOException {
 
-        // TODO: Map deklarieren
+        HashMap<String, Integer> wordsMap = new HashMap<>();
 
         // Datei zum Lesen öffnen
         BufferedReader reader = new BufferedReader(new FileReader(filename));
@@ -43,7 +45,7 @@ public class WordCount {
             String[] words = line.toLowerCase().split("[,. ]");
 
             for (String word : words) {
-                // TODO: Worthäufigkeiten in Map speichern
+                wordsMap.merge(word, 1, (a,b) -> a+b);
             }
         }
 
@@ -52,7 +54,15 @@ public class WordCount {
         // TODO: Worthäufigkeiten aus der Map extrahieren und sortieren
 
         // TODO: Ergebnis zurückgeben
-        return null;
+        
+        ArrayList<WordFrequency> freqList = new ArrayList<>();
+        Set<Entry<String, Integer>> entrySet = wordsMap.entrySet();
+        for(Entry entry : entrySet) {
+            freqList.add(new WordFrequency((String)entry.getKey(), (int)entry.getValue()));
+        }
+         Collections.sort(freqList);
+         
+        return freqList;
     }
 
     /**

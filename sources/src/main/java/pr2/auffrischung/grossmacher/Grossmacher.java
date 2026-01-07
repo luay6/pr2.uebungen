@@ -16,7 +16,7 @@ public class Grossmacher {
 
                 System.out.println("Type \"exit\" to exit!");
                 System.out.println("Your text here: ");
-
+ 
                 input = in.nextLine();
 
                 char[] inputChar = input.toCharArray();

@@ -6,8 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Klassen, um die in einem Text vorkommenden Wörter zu sammeln.
@@ -22,9 +24,9 @@ public class WordCollector {
          * @return die Liste der vorhandenen Wort
          * @throws IOException Fehler beim Dateizugriff.
          */
-        public static String[] listWords(String filename) throws IOException {
-            String[] allWords = readFileAndSplitIntoWords(filename);
-            String[] result = removeDuplicates(allWords);
+        public static ArrayList<String> listWords(String filename) throws IOException {
+            ArrayList<String> allWords = readFileAndSplitIntoWords(filename);
+            ArrayList<String> result = removeDuplicates(allWords);
 
             return result;
         }
@@ -36,7 +38,7 @@ public class WordCollector {
          * @return die Liste der vorhandenen Wort
          * @throws IOException Fehler beim Dateizugriff.
          */
-        private static String[] readFileAndSplitIntoWords(String filename)
+        private static ArrayList<String> readFileAndSplitIntoWords(String filename)
                 throws IOException {
 
             // Datei zum Lesen öffnen
@@ -44,8 +46,7 @@ public class WordCollector {
                 new FileReader(filename));
 
             String line; // aktuelle Zeile
-            String[] wordBuffer = new String[100]; // Puffer für die Worte
-            int pos = 0; // Position im Word-Puffer
+            ArrayList<String> wordlist = new ArrayList<String>(); // Puffer für die Worter
 
             // Über die Zeilen der Datei iterieren
             while ((line = reader.readLine()) != null) {
@@ -53,32 +54,17 @@ public class WordCollector {
                 // Sonderzeichen entfernen und die Zeilen in Worte splitten
                 line = line.toLowerCase();
                 line = line.replaceAll("[\",.:'\\-\\!?]", "");
-
                 String[] words = line.toLowerCase().split("[,. ]");
-
-                // Worte in den Puffer übertragen
-                for (String word : words) {
-
-                    if (pos >= wordBuffer.length) {
-                        // Puffer ist voll, vergrößern
-                        String[] newBuffer =
-                            new String[wordBuffer.length * 2];
-                        System.arraycopy(wordBuffer, 0, newBuffer,
-                                0, wordBuffer.length);
-                        wordBuffer = newBuffer;
-                    }
-
-                    wordBuffer[pos++] = word;
+                for(String word : words) {
+                    wordlist.add(word);                    
                 }
+
             }
-
-            reader.close();
-
-            // Ergebnis-Array mit der richtigen Größe anlegen
-            String[] result = new String[pos];
-            System.arraycopy(wordBuffer, 0, result, 0, pos);
-
-            return result;
+            Set<String> tempSet = new HashSet();
+            tempSet.addAll(wordlist);
+            wordlist.clear();
+            wordlist.addAll(tempSet);
+            return wordlist;
         }
 
         /**
@@ -87,57 +73,9 @@ public class WordCollector {
          * @param input Eingabe Array
          * @return sortiertes und bereinigtes Array
          */
-        private static String[] removeDuplicates(String[] input) {
-
-            // Eingabe Array clonen, da es verändert wird (Seiteneffekt)
-            String[] strings = input.clone();
-
-            // Array sortieren
-            Arrays.sort(strings);
-
-            // Über die Einträge laufen
-            for (int i = 0; i < strings.length; i++) {
-                String word = strings[i];
-
-                if (word == null) {
-                    // Bereits entfernter Eintrag
-                    continue;
-                }
-
-                // Über die Einträge laufen
-                for (int k = i + 1; k < strings.length; k++) {
-                    String otherWord = strings[k];
-
-                    if (otherWord == null) {
-                        // Bereits entfernter Eintrag
-                        continue;
-                    }
-                    else if (otherWord.compareTo(word) > 0) {
-                        // Sind schon hinter der möglichen Position
-                        break;
-                    }
-                    else if (otherWord.equals(word)) {
-                        // Duplikat, ausnullen
-                        strings[k] = null;
-                    }
-                }
-            }
-
-            // Ausgenullte Einträge entfernen
-            int pos = 0;
-            String[] temp = new String[strings.length];
-
-            for (int i = 0; i < strings.length; i++) {
-                if (strings[i] != null) {
-                    temp[pos++] = strings[i];
-                }
-            }
-
-            // Ergebnis auf die richtige Länge bringen
-            String[] result = new String[pos];
-            System.arraycopy(temp, 0, result, 0, pos);
-
-            return result;
+        private static ArrayList<String> removeDuplicates(ArrayList<String> list) {
+            Collections.sort(list);
+            return list;
         }
 
         /**
@@ -148,9 +86,9 @@ public class WordCollector {
         public static void main(String[] args) {
 
             try {
-                String[] words = listWords(
+                ArrayList<String> words = listWords(
                     "kafka.txt");
-                System.out.println(Arrays.toString(words));
+                System.out.println(words);
             }
             catch (IOException e) {
                 System.err.println("Probleme beim Dateizugriff: " + e);

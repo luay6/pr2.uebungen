@@ -4,10 +4,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Reverser {
+public class Reverser<T extends Comparable> {
 
-    public void reverse(List<String> liste) {
+    public <T> void reverse(List<T> liste) {
 
-        // TODO: Liste umgekehrt sortieren
+        if(liste == null) {
+            return;
+        }
+        Collections.sort(liste, Collections.reverseOrder());
+        return;
     }
 }

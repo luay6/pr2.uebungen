@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+temp
 /**
  * Klassen, um die in einem Text vorkommenen Wörter zu sammeln.
  */
