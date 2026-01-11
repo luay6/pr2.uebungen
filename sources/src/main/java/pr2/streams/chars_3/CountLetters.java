@@ -7,7 +7,10 @@ public class CountLetters {
 
         long chars = 0;
 
-        // TODO: Implementieren
+        chars = liste.stream()
+                .flatMapToInt(e -> e.chars())
+                .filter(Character::isLowerCase)
+                .count();
 
         return chars;
     }

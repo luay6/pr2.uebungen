@@ -7,7 +7,10 @@ public class FilterList {
     public static List<String> filter(List<String> liste) {
         List<String> result = null;
 
-        // TODO: Daten filtern
+        result = liste.stream()
+                .filter(e -> e.length() > 4)
+                .map(e -> e.toLowerCase())
+                .collect(Collectors.toList());
 
         return result;
     }
